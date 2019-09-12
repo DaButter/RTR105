@@ -22,8 +22,8 @@
    firefox //atver firefox  
    firefox & //atver firefox backgroundā    
    
-   ctrl+alt+t //atver GUI
-   ctrl+alt+e //
-   ctrl+l //patin GUI uz leju, "notīra"
+   ctrl+alt+t //atver GUI  
+   ctrl+alt+e //  
+   ctrl+l //patin GUI uz leju, "notīra"  
    
    
