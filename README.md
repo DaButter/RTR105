@@ -12,7 +12,7 @@
    ls //parāda pieejamās mapes  
    man ls //parāda iespējamās komandas ar ls  
    ls -l //objektu saraksts  
-   ls -a //parāda visus objektus  
+   ls -a //parāda visus objektus  , neignoret tos, kuri sakas ar .fails
    ls -al //parāda visus objektus detalizēti  
    cd . //aktīvā direktorija šeid  
    cd .. //pārvieto uz nākamo direktoriju  
@@ -20,5 +20,10 @@
    cd ~ //pārvieto uz home   
    cd /Mape //pārvieto uz konkrēto mapi  
    firefox //atver firefox  
-   firefox & //atver firefox backgroundā  
+   firefox & //atver firefox backgroundā    
+   
+   ctrl+alt+t //atver GUI
+   ctrl+alt+e //
+   ctrl+l //patin GUI uz leju, "notīra"
+   
    
