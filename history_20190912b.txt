@@ -1,0 +1,77 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  firefox
+    5  firefox &
+    6  cls
+    7  firefox &
+    8  exit
+    9  history
+   10  s
+   11  ls
+   12  touch asaa.txt
+   13  ls -l
+   14  cat asaa.txt
+   15  cat bsaa.txt
+   16  echo Pirmais teksts
+   17  Pirmais teksts > asaa.txt
+   18  echo Pirmais teksts > asaa.txt
+   19  ls -l
+   20  ls -l asaa.txt
+   21  echo Otrais Teksts yo > asaa.txt
+   22  ls -l asaa.txt
+   23  cat asaa.txt
+   24  Otrais teksts atkal yoo >> asaa.txt
+   25  ech Otrais teksts atkal yoo >> asaa.txt
+   26  echo Otrais teksts atkal yoo >> asaa.txt
+   27  ls -l asaa.txt
+   28  cat asaa.txt
+   29  nano asaa.txt
+   30  cat asaa.txt
+   31  cp asaa.txt to bbb.txt
+   32  cp asaa.txt bbb.txt
+   33  pwd
+   34  cd /
+   35  pwd
+   36  mv ~/asaa.txt ~/Documents/ccc.txt
+   37  cd
+   38  ls -l
+   39  ls -l Documents/
+   40  pwd
+   41  mv Documents/ccc.txt ddd.txt
+   42  ls -l
+   43  mkdir ManaMape
+   44  mv *.txt ManaMape/
+   45  ls -l
+   46  ls -l ManaMape
+   47  ls -al ManaMape
+   48  ~/ManaMape
+   49  ~/ManaMape$ cd
+   50  rm ManaMape/
+   51  rm -fr ManaMape/
+   52  ls -l
+   53  nano MansPirmaisSkripts.sh
+   54  MansPirmaisSkripsts.sh
+   55  ls -l
+   56  echo $PATH
+   57  ls /bin | grep ls
+   58  ls -l /bin/ls
+   59  ls -al /bin/ls
+   60  ls
+   61  cat /bin/ls
+   62  ls -l /bin/ls
+   63  MansPirmaisSkripts.sh
+   64  ~/MansPirmaisSkripts.sh
+   65  echo $PATH
+   66  $PATH=$PATH:~
+   67  $PATH=$PATH:~/
+   68  PATH=$PATH:~/
+   69  echo $PATH
+   70  MansPirmaisSkripts.sh
+   71  ls -l
+   72  chmod 740 MansPirmaisSkripts.sh
+   73  ls -l
+   74  MansPirmaisSkripts.sh 
+   75  ls -l ManaMapeAuto/
+   76  history
+   77  history > history_20190912b.txt
