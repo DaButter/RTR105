@@ -1,0 +1,118 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  firefox
+    5  firefox &
+    6  cls
+    7  firefox &
+    8  sdla
+    9  sa
+   10  cls
+   11  sdla
+   12  firefox 
+   13  fig2dev
+   14  man 
+   15  man firefox
+   16  echo $0
+   17  uname
+   18  man uname
+   19  uname -a
+   20  whoami
+   21  who
+   22  pvd
+   23  pnd
+   24  pwd
+   25  ls
+   26  lsls
+   27  ls
+   28  man ls
+   29  ls -l
+   30  ls -a
+   31  ls -al
+   32  pwd
+   33  cd
+   34  cd.
+   35  cd .
+   36  pwd
+   37  xd .
+   38  cd .
+   39  pwd
+   40  cd ..
+   41  pwd
+   42  ls -la
+   43  la -a
+   44  la -la
+   45  ls -ls
+   46  cd .
+   47  pwd
+   48  cd ..
+   49  cd ...
+   50  cd.
+   51  cd .
+   52  pwd
+   53  cd .
+   54  pwd
+   55  cd ..
+   56  pwd
+   57  cd .home
+   58  cd home
+   59  cls
+   60  pwd
+   61  cd ~
+   62  pwd
+   63  cd /
+   64  pwd
+   65  cd home/
+   66  cd user/
+   67  pwd
+   68  cd .
+   69  pwd
+   70  cd ..
+   71  pwd
+   72  cd home/user/
+   73  cd /home/user
+   74  pwd
+   75  cd /
+   76  pwd
+   77  cd ~
+   78  pwd
+   79  ls -l
+   80  ls -a
+   81  cd /Documents
+   82  cd /Ducuments$
+   83  ls -l
+   84  pwd
+   85  ls -al
+   86  cd 
+   87  echo 0$
+   88  pwd
+   89  sh
+   90  kill me
+   91  cd /ho
+   92  sh
+   93  pwd
+   94  cd /
+   95  pwd
+   96  cd ~
+   97  pwd
+   98  mkdir ManaMape
+   99  pwd
+  100  cd /
+  101  mkdir ManaMape
+  102  cd
+  103  pwd
+  104  ls
+  105  pwd
+  106  mkdir TavaMape
+  107  ls 
+  108  ls -l
+  109  cd ManaMape/
+  110  ls -a -l
+  111  cd ..
+  112  rmdir ManaMape
+  113  ls
+  114  rmdir TavaMape
+  115  ls
+  116  history
+  117  hostory > history_20190912.txt
+  118  history > history_20190912.txt
