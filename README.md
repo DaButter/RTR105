@@ -14,7 +14,7 @@
    ls -l //objektu saraksts  
    ls -a //parāda visus objektus  , neignoret tos, kuri sakas ar .fails
    ls -al //parāda visus objektus detalizēti  
-   cd . //aktīvā direktorija šeid  
+   cd . //aktīvā direktorija šeit  
    cd .. //pārvieto uz nākamo direktoriju  
    cd / //pārvieto uz saknes direktoriju  
    cd ~ //pārvieto uz home   
