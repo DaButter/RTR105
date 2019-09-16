@@ -1,47 +1,47 @@
     1  VirtualBox --startvm XP
     2  quartus
-    3  firefox &
+    3  firefox & //firefox atverās background režīmā
     4  firefox
     5  firefox &
-    6  cls
+    6  
     7  firefox &
     8  exit
-    9  history
-   10  s
-   11  ls
+    9  history //parāda komandu vēsturi
+   10  
+   11  ls 
    12  touch asaa.txt
    13  ls -l
    14  cat asaa.txt
-   15  cat bsaa.txt
-   16  echo Pirmais teksts
-   17  Pirmais teksts > asaa.txt
-   18  echo Pirmais teksts > asaa.txt
+   15  cat bsaa.txt //aplūko failu,saturu
+   16  echo Pirmais teksts //izmet ievadito tekstu vēlreiz
+   17  Pirmais teksts > asaa.txt 
+   18  echo Pirmais teksts > asaa.txt //overwrito failu ar norādīto tekstu
    19  ls -l
    20  ls -l asaa.txt
-   21  echo Otrais Teksts yo > asaa.txt
+   21  echo Otrais Teksts yo > asaa.txt //overwrito falu ar ievadīto tekstu
    22  ls -l asaa.txt
-   23  cat asaa.txt
-   24  Otrais teksts atkal yoo >> asaa.txt
-   25  ech Otrais teksts atkal yoo >> asaa.txt
+   23  cat asaa.txt //aplūko failu
+   24  Otrais teksts atkal yoo >> asaa.txt //pievieno failam norādīto tekstu
+   25  
    26  echo Otrais teksts atkal yoo >> asaa.txt
    27  ls -l asaa.txt
    28  cat asaa.txt
-   29  nano asaa.txt
+   29  nano asaa.txt //atver nano failu editoru
    30  cat asaa.txt
    31  cp asaa.txt to bbb.txt
    32  cp asaa.txt bbb.txt
    33  pwd
    34  cd /
    35  pwd
-   36  mv ~/asaa.txt ~/Documents/ccc.txt
+   36  mv ~/asaa.txt ~/Documents/ccc.txt //pārvieto teksta dokumentu uz noradito mapi norādītajā failā
    37  cd
    38  ls -l
    39  ls -l Documents/
    40  pwd
-   41  mv Documents/ccc.txt ddd.txt
+   41  mv Documents/ccc.txt ddd.txt //pārvieto failu uz norādīto mapi nomainot nosaukumu
    42  ls -l
-   43  mkdir ManaMape
-   44  mv *.txt ManaMape/
+   43  mkdir ManaMape //uztaisa jaunu mapi ar nosaukumu ManaMape
+   44  mv *.txt ManaMape/ //pārvieto txt failus uz ManaMape
    45  ls -l
    46  ls -l ManaMape
    47  ls -al ManaMape
@@ -55,23 +55,23 @@
    55  ls -l
    56  echo $PATH
    57  ls /bin | grep ls
-   58  ls -l /bin/ls
+   58  ls -l /bin/ls //pieprasa mapes saturu
    59  ls -al /bin/ls
    60  ls
-   61  cat /bin/ls
+   61  cat /bin/ls //parāda norādītajā mapē kko
    62  ls -l /bin/ls
    63  MansPirmaisSkripts.sh
    64  ~/MansPirmaisSkripts.sh
-   65  echo $PATH
+   65  echo $PATH //parāda pieejamos ceļus
    66  $PATH=$PATH:~
    67  $PATH=$PATH:~/
    68  PATH=$PATH:~/
    69  echo $PATH
-   70  MansPirmaisSkripts.sh
+   70  MansPirmaisSkripts.sh //atver skripta editor
    71  ls -l
    72  chmod 740 MansPirmaisSkripts.sh
    73  ls -l
    74  MansPirmaisSkripts.sh 
-   75  ls -l ManaMapeAuto/
-   76  history
-   77  history > history_20190912b.txt
+   75  ls -l ManaMapeAuto/ //parāda mapes saturu
+   76  
+   77  history > history_20190912b.txt //ieraksta komandu vēsturi norādītajā failā
