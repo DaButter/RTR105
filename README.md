@@ -21,7 +21,17 @@
    cd /Mape //pārvieto uz konkrēto mapi  
    firefox //atver firefox  
    firefox & //atver firefox backgroundā    
+
+   git clone [] //[] vietā ievada github adresi, to nokopee
+   rm hello.c //nodzes failu
+   ./git-upload 20190919_15_00 //uploado githubā repozitārijā izmantojot git-upload skriptu 
+   gcc elementary.c //izpilda pirmkodu
+   mv //parvieto failu
+   mkdir //uztaisa jaunu mapi
+   gcc elementary -o prg1 //saglaba kodu ar prg1 nosaukumu
    
+   
+
    ctrl+alt+t //atver GUI  
    ctrl+alt+e //  
    ctrl+l //patin GUI uz leju, "notīra"  
