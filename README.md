@@ -1,7 +1,8 @@
 # RTR105
                              Studiju kura Datormācība (pamatkurss) elektroniskā karte
                                        Otrās nodarbības komandu vēsture
-    
+   
+   cd [mapes nosaukums]/[mapes nosaukums] //ieiet konkrētajā mapē
    echo // ierakstot tekstu, to atmetīs atpakaļ kā atbalsi  
    echo 0$ //parāda, kas interpretē darbības  
    uname //parāda, ka t.i. Linux  
@@ -25,8 +26,10 @@
    git clone [] //[] vietā ievada github adresi, to nokopee
    rm hello.c //nodzes failu
    ./git-upload 20190919_15_00 //uploado githubā repozitārijā izmantojot git-upload skriptu 
-   gcc elementary.c //izpilda pirmkodu
+   gcc elementary.c //izpilda pirmkodu, rada a.out izpildamo failu
+   ./a.out //palaiž izpildāmo failu
    mv //parvieto failu
+   cp //kopē failu
    mkdir //uztaisa jaunu mapi
    gcc elementary -o prg1 //saglaba kodu ar prg1 nosaukumu
    
