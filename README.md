@@ -23,8 +23,10 @@
    firefox //atver firefox  
    firefox & //atver firefox backgroundā    
 
-   git clone [] //[] vietā ievada github adresi, to nokopee
-   rm hello.c //nodzes failu
+   git clone [] //[] vietā ievada github adresi, to nokopee kaa mapi
+   rm hello.c //nodzes failu (remove)
+   cp helllo.c 01.c //nokope hello.c uz 01.c (ja nav 01.c, tad izveido)
+   mv hello.c 01.c // parvieto hello.c uz 01.c 
    ./git-upload 20190919_15_00 //uploado githubā repozitārijā izmantojot git-upload skriptu 
    gcc elementary.c //izpilda pirmkodu, rada a.out izpildamo failu
    ./a.out //palaiž izpildāmo failu
@@ -35,8 +37,8 @@
    
    
 
-   ctrl+alt+t //atver GUI  
-   ctrl+alt+e //  atver jaunu GUI cilni
+   ctrl+shift+t //atver GUI  
+   ctrl+shift+e //  atver jaunu GUI cilni
    ctrl+l //patin GUI uz leju, "notīra"  
-   
+   clear // =ctrl+l
    
