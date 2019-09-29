@@ -16,7 +16,7 @@
    ls -a //parāda visus objektus  , neignoret tos, kuri sakas ar .fails
    ls -al //parāda visus objektus detalizēti  
    cd . //aktīvā direktorija šeit  
-   cd .. //pārvieto uz nākamo direktoriju  
+   cd .. //pārvieto uz iepriekšējo direktoriju  
    cd / //pārvieto uz saknes direktoriju  
    cd ~ //pārvieto uz home   
    cd /Mape //pārvieto uz konkrēto mapi  
@@ -36,7 +36,7 @@
    
 
    ctrl+alt+t //atver GUI  
-   ctrl+alt+e //  
+   ctrl+alt+e //  atver jaunu GUI cilni
    ctrl+l //patin GUI uz leju, "notīra"  
    
    
