@@ -37,8 +37,10 @@
    
    
 
-   ctrl+shift+t //atver GUI  
-   ctrl+shift+e //  atver jaunu GUI cilni
+   ctrl+shift+n //atver GUI  
+   ctrl+shift+t //  atver jaunu GUI cilni
    ctrl+l //patin GUI uz leju, "notīra"  
    clear // =ctrl+l
+   ctrl+k //izgriež rindu
+   ctrl+n //ielīmē izgriezto rindu
    
