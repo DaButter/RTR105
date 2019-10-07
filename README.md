@@ -23,16 +23,17 @@
    firefox //atver firefox  
    firefox & //atver firefox backgroundā    
 
-   git clone [] //[] vietā ievada github adresi, to nokopee kaa mapi
+   git clone [https://github.com/DaButter/RTR105] //[] vietā ievada github adresi, to nokopee kaa mapi
    rm hello.c //nodzes failu (remove)
    cp helllo.c 01.c //nokope hello.c uz 01.c (ja nav 01.c, tad izveido)
    mv hello.c 01.c // parvieto hello.c uz 01.c 
    ./git-upload 20190919_15_00 //uploado githubā repozitārijā izmantojot git-upload skriptu 
    gcc elementary.c //izpilda pirmkodu, rada a.out izpildamo failu
-   ./a.out //palaiž izpildāmo failu
    mv //parvieto failu
    cp //kopē failu
-   mkdir //uztaisa jaunu mapi
+   mkdir //uztaisa jaunu mapI
+   rm -r //nonem mapi
+   ./a.out //izpilda izpildamo failu
    gcc elementary -o prg1 //saglaba kodu ar prg1 nosaukumu
    
    
