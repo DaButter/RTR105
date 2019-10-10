@@ -35,13 +35,11 @@
    rm -r //nonem mapi
    ./a.out //izpilda izpildamo failu
    gcc elementary -o prg1 //saglaba kodu ar prg1 nosaukumu
-   
-   
 
    ctrl+shift+n //atver GUI  
    ctrl+shift+t //  atver jaunu GUI cilni
    ctrl+l //patin GUI uz leju, "notīra"  
    clear // =ctrl+l
    ctrl+k //izgriež rindu
-   ctrl+n //ielīmē izgriezto rindu
+   ctrl+u //ielīmē izgriezto rindu
    
