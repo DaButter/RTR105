@@ -1,9 +1,19 @@
 #include<stdio.h>
 
-void main()
- {
- //char i=0, N=3-, fact=1;
- int i=0, N=30, fact=1;
- //long long int i=0, N=30, fact=1;
+void main() {
+ int i=0,fact=1,fact_old=1;
+ for(i=1;  ;i++)
+  {
+  fact_old = fact;
+  fact = fact * i;
+   if (fact/i == fact_old)
+    printf("Skaitļa %d faktoriāls ir: %d\n",i,fact);
+   else
+    {
+    printf("Diemžēl ir sasniegta datu tipa robeža.\n");
+    break;
+    }
+  }
+ }
 
- for(
+

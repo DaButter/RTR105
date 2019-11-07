@@ -1,0 +1,114 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  rm a.out 
+    5  nano string_copy.c
+    6  ls
+    7  gcc string_copy.c 
+    8  nano string_copy.c
+    9  gcc string_copy.c 
+   10  nano string_copy.c
+   11  gcc string_copy.c 
+   12  ./a.out 
+   13  nano string_copy.c
+   14  gcc string_copy.c 
+   15  ./a.out 
+   16  nano string_copy.c 
+   17  cp string_copy.c string_analysis.c
+   18  nano string_analysis.c 
+   19  cd ..
+   20  cd
+   21  git clone https://github.com/tatusmatrix/RTR105_2019
+   22  cd
+   23  ls
+   24  cd RTR105_2019/
+   25  ls
+   26  cd darbiM01/
+   27  ls
+   28  nano factorial.c
+   29  gcc factorial.c
+   30  ./a.out 
+   31  nano factorial.c
+   32  gcc factorial.c
+   33  ./a.out 
+   34  nano factorial.c
+   35  cd
+   36  ls
+   37  cd RTR105_2019/darbiM01/
+   38  ls
+   39  nano user_function_no_arg_with_return.c 
+   40  cd
+   41  ls
+   42  cd RTR105/darbi/
+   43  cd
+   44  cd RTR105/darbi/
+   45  ls
+   46  rm a.out 
+   47  nano str_in_out_file.c
+   48  ls
+   49  gcc str_in_out_file.c 
+   50  ./a.out 
+   51  nano str_in_out_file.c
+   52  gcc str_in_out_file.c 
+   53  nano str_in_out_file.c
+   54  gcc str_in_out_file.c 
+   55  ./a.out 
+   56  nano str_in_out_file.c
+   57  ./a.out 
+   58  nano str_in_out_file.c
+   59  ./a.out 
+   60  gcc str_in_out_file.c 
+   61  ./a.out 
+   62  nano str_in_out_file.c
+   63  gcc str_in_out_file.c 
+   64  ./a.out 
+   65  nano str_in_out_file.c
+   66  ls
+   67  cat emp.txt 
+   68  nano str_in_out_file.c 
+   69  gcc str_in_out_file.c 
+   70  nano str_in_out_file.c 
+   71  gcc str_in_out_file.c 
+   72  rm emp.txt 
+   73  ./a.out 
+   74  ls
+   75  cat austra_teksts.txt 
+   76  nano str_in_out_file.c 
+   77  gcc str_in_out_file.c 
+   78  ./a.out 
+   79  cat austra_teksts.txt 
+   80  nano str_in_out_file.c 
+   81  gcc str_in_out_file.c 
+   82  ./a.out 
+   83  cat austra_teksts.txt 
+   84  nano str_in_out_file.c 
+   85  gcc str_in_out_file.c 
+   86  ./a.out 
+   87  cat austra_teksts.txt 
+   88  nano str_in_out_file.c 
+   89  gcc str_in_out_file.c 
+   90* 
+   91  cat austra_teksts.txt 
+   92  nano str_in_out_file.c 
+   93  gcc str_in_out_file.c 
+   94  ./a.out 
+   95  cat austra_teksts.txt 
+   96  nano str-
+   97  nano str_in_out_file.c 
+   98  gcc str_
+   99  gcc str_in_out_file.c 
+  100  ./a.out 
+  101  cat austra_teksts.txt 
+  102  nano str_in_out_file.c 
+  103  gcc str_in_out_file.c 
+  104  nano str_in_out_file.c 
+  105  gcc str_in_out_file.c 
+  106  ./a.out 
+  107  cat austra_teksts.txt 
+  108  nano str_in_out_file.c 
+  109  cd
+  110  ls
+  111  cd RTR105
+  112  ls
+  113  history
+  114  history>history_2019_11_07.txt
