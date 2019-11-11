@@ -7,7 +7,7 @@ int main ()
 	int i, totalwords=1, len=0, j=0, k=0, cnt[MAX_WORDS];
 	char text[100];
 
-	int strfive;
+	char strfive;
 
 	printf("\n Ievadiet vardus: ");
 	scanf("%[^\n]s",&text);

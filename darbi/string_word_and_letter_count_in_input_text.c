@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h> 
 #define MAX_WORDS 10
 
 int main ()
@@ -45,7 +45,7 @@ int main ()
 
 	printf("\n Ievadito vardu skaits saja teikuma (%s) ir: %d \n",text,totalwords); //izvada ievadito vardu skaitu
 
-        printf("Katra ievadita varda garums: "); //izvada katra varda simbolu skaitu
+        printf(" Katra ievadita varda garums: "); //izvada katra varda simbolu skaitu
         for(k=0;k<j;k++)
 	{
                 printf("%d, ",cnt[k]);
