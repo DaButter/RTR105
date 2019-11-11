@@ -1,0 +1,578 @@
+    1  pwd
+    2  whoami
+    3  ls -l
+    4  ls -al
+    5  git clone
+    6  git clone https://github.com/k4m4/kickthemout
+    7  clear
+    8  ls
+    9  cd kickthemout/
+   10  ls
+   11  cat requirements.txt 
+   12  pip install -r requirements.txt 
+   13  ls -al
+   14  ls
+   15  ./kickthemout.py
+   16  pythom kickthemout.py
+   17  python ./kickthemout.py
+   18  python kickthemout.y
+   19  python kickthemout.py
+   20  ./kickthemout.py
+   21  python kickthemout.py
+   22  ls
+   23  cat README.md 
+   24  lscd ~
+   25  ls
+   26  cd kicthemout/
+   27  cd ./kickthemout
+   28  ls
+   29  cat README.md 
+   30  unname -a
+   31  uname -a
+   32  cd /etv/apt
+   33  cd /etc/apt
+   34  leafpad sources.list
+   35  clear
+   36  cd ~
+   37  clear
+   38  history
+   39  clear
+   40  ls
+   41  cd kickthemout/
+   42  ls
+   43  cat README.md 
+   44  sudo apt-get update
+   45  sudo apt-get install nmap
+   46  cd ~
+   47  sudo apt-get update
+   48  sudo apt-get install nmap
+   49  cd kickthemout/
+   50  sudo -H pip3 install -r requirements.txt
+   51  sudo pip3 python3 kickthemout.py
+   52  sudo python3 kickthemout.py
+   53  ls
+   54  cd kickthemout/
+   55  ls
+   56  history
+   57  sudo python3 kickthemout.py
+   58  cd kickthemout/
+   59  ls
+   60  sudo python3 kickthemout.py
+   61  cd kickthemoff/
+   62  ls
+   63  cd kickthemout
+   64  ls
+   65  sudo python3 kickthemout.py
+   66  cd kiskthemout/
+   67  cd kickthemout/
+   68  sudo python3 kickthemout.py
+   69  cd kickthemout/
+   70  pip install -r requirements.txt
+   71  clear
+   72  ls
+   73  ./kickthemout.py
+   74  python kickthemout.py 
+   75  python3 kickthemout.py
+   76  apt install ettercap
+   77  cdki ckthemout/
+   78  cd kickthemout/
+   79  clear
+   80  ls
+   81  python3 kickthemout.py
+   82  cd kickthemout/
+   83  ls
+   84  python3 kickthemout.py 
+   85  ls
+   86  cd kickthemout/
+   87  ls
+   88  python3 kickthemout.py 
+   89  ls
+   90  cd kickthemout/
+   91  ls
+   92  cat requirements.txt 
+   93  install requirements.txt 
+   94  install --
+   95  install --h
+   96  python3 kickthemout.py 
+   97  hackwifi
+   98  nano aliases
+   99  cd ..
+  100  ls
+  101  nano README.md 
+  102  cd darbi/
+  103  ls -l
+  104  nano tekstaformatesana2.c 
+  105  ls -l
+  106  git clone https://github.com/DaButter/RTR105
+  107  ls -l
+  108  cd /RTR105
+  109  cd RTR105/
+  110  LS -L
+  111  ls -l
+  112  cat README.md 
+  113  clear
+  114  ls -l
+  115  cd darbi/
+  116  ls -l
+  117  cat hello.c
+  118  nano hello.c 
+  119  gcc hello.c 
+  120  ls -l
+  121  a/.a.out
+  122  ./a.out
+  123  nano tekstaformatesana.c 
+  124  gcc tekstaformatesana.c 
+  125  ./a.out
+  126  nano tekstaformatesana.c 
+  127  gcc tekstaformatesana.c 
+  128  ./a.out
+  129  nano tekstaformatesana.c 
+  130  gcc tekstaformatesana.c 
+  131  ./a.out
+  132  nano tekstaformatesana.c 
+  133  gcc tekstaformatesana.c 
+  134  ./a.out
+  135  nano tekstaformatesana.c 
+  136  gcc tekstaformatesana.c 
+  137  ./a.out
+  138  nano tekstaformatesana2.c 
+  139  gcc tekstaformatesana2.c 
+  140  ./a.out
+  141  nano tekstaformatesana2.c 
+  142  gcc tekstaformatesana2.c 
+  143  ./a.out
+  144  gcc tekstaformatesana2.c
+  145  ./a.out
+  146  nano tekstaformatesana2.c
+  147  ./a.out
+  148  cd ~
+  149  clear
+  150  ls -l
+  151  ls
+  152  cd RTR105/
+  153  LS
+  154  ls
+  155  cd darbi/
+  156  ls
+  157  ls -l
+  158  ./a.out 
+  159  cd ..
+  160  cd darbi/
+  161  ls -l
+  162  rm a.out
+  163  ls -l
+  164  clear
+  165  ls -l
+  166  nano rinkispi.c 
+  167  gcc rinkispi.c 
+  168  ./a.out 
+  169  nano rinkispi.c 
+  170  gcc rinkispi.c 
+  171  ./a.out
+  172  nano rinkispi.c 
+  173  nano reizinasana.c 
+  174  gcc reizinasana.c 
+  175  ./a.out 
+  176  nano reizinasana.c 
+  177  ls -l
+  178  cat elementray.c
+  179  nano elementary.c 
+  180  nano 01.c 
+  181  gcc 01.c
+  182  ./a.out 
+  183  nano 01.c 
+  184  gcc 01.c
+  185  ./a.out 
+  186  nano 01.c 
+  187  gcc 01.c 
+  188  ./a.out 
+  189  mv 01.c mainigadefinesana.c
+  190  ls -l
+  191  nano 03.c
+  192  gcc 03.c 
+  193  nano 03.c 
+  194  gcc 03.c 
+  195  ./a.out 
+  196  clear
+  197  ls -l
+  198  rm a.out
+  199  ls -l
+  200  cd ..
+  201  ls -l
+  202  git-upload 29-09-2019-17-04
+  203  cat git-upload 
+  204  bash git-upload 20190929_17_09
+  205  history
+  206  ls -l
+  207  cd kickthemout/
+  208  ls -l
+  209  python3 kickthemout.py 
+  210  cd ~
+  211  ls -l
+  212  cd RTR105/
+  213  ls -l
+  214  cd darbi/
+  215  ls -l
+  216  nano 03.c 
+  217  nano rinkispi.c 
+  218  gvv rinkispi.c 
+  219  gcc rinkispi.c 
+  220  ./a.out
+  221  git clone https://github.com/DaButter/RTR105
+  222  ls -l
+  223  rm RTR105
+  224  cd RTR105/
+  225  LS -L
+  226  ls -l
+  227  nano README.md 
+  228  cd
+  229  ls -l
+  230  rmdir RTR105/
+  231  ls -l
+  232  rm -r RTR105/
+  233  LS -L
+  234  ls -l
+  235  git clone https://github.com/DaButter/RTR105
+  236  ls -;
+  237  ls -l
+  238  cd RTR105/
+  239  ls -l
+  240  cd darbi/
+  241  ls -l
+  242  nano operation_bitwise_left.c 
+  243  ls -l
+  244  gcc operation_bitwise_left.c asaa
+  245  gcc operation_bitwise_left.c a.asaaa
+  246  gcc operation_bitwise_left.c 
+  247  ls -l
+  248  ./a.out
+  249  cd
+  250  ls -l
+  251  RTR105/
+  252  cd RTR105/
+  253  ls -l
+  254  nano README.md 
+  255  cd darbi/
+  256  ls -l
+  257  nano operation_bitwise_left.c 
+  258  gcc operation_bitwise_left.c 
+  259  ./a.out
+  260  ./a.out 
+  261  rm a.out
+  262  nano operation_bitwise_left.c 
+  263  gcc operation_bitwise_left.c 
+  264  ./a.out 
+  265  cd
+  266  ls -l
+  267  whoami
+  268  cd RTR105/
+  269  ls -l
+  270  ./git-upload 07_10_2019-22_36
+  271  ls -l
+  272  rm -r RTR105/
+  273  ls -l
+  274  git clone https://github.com/DaButter/RTR105
+  275  git clone https://github.com/tatusmatrix/RTR105_2019
+  276  ls -l
+  277  cd RTR105_2019/
+  278  ls -l
+  279  cat README.md 
+  280  cd darbiM01/
+  281  ls -l
+  282  cat while_tests_1.c 
+  283  cp while_tests_1.c RTR105/darbi/while_tests_1.c
+  284  ls -l
+  285  cat while_tests_2.c 
+  286  cp while_tests_2.c RTR105/darbi/
+  287  mv while_tests_2.c RTR105/darbi/while_tests_1.c
+  288  ls -l
+  289  ls
+  290  cat test1.c 
+  291  cat for_tests_1.c 
+  292  nano for_tests_1.c 
+  293  nano for_tests_2.c 
+  294  nano for_tests_3.c 
+  295  ls -l
+  296  cat elementary.c 
+  297  rm elementary.c 
+  298  rm for_tests_*.c
+  299  ls -l
+  300  rm hello.c 
+  301  cat test1.c
+  302  rm test1.c 
+  303  tst
+  304  cat test_20190926_NAV.c 
+  305  rm test_20190926_NAV.c 
+  306  ls -l
+  307  nano if_tests_1.c 
+  308  nano if_tests_3,
+  309  ls -l
+  310  nano if_tests_3.c 
+  311  ls -l
+  312  rm if_tests_?.c
+  313  ls -l
+  314  nano while_tests_1.c 
+  315  nano while_tests_2.c 
+  316  nano while_tests_1.c 
+  317  nano while_tests_2.c 
+  318  ls -l
+  319  while_tests_2.c
+  320  nano while_tests_2.c
+  321  ls -l
+  322  rm while_tests_?.c
+  323  ls -l
+  324  rm if_tests_even_odd_with_tic_toc.c 
+  325  ls -l
+  326  nano if_tests_even_odd.c 
+  327  rm if_tests_even_odd.c 
+  328  ls -l
+  329  gcc operation_bitwise_left
+  330  ls -l
+  331  nano operation_bitwise_left
+  332  rm operation_bitwise_left
+  333  ls -l
+  334  nano operation_bitwise_left.c
+  335  rm operation_bitwise_left.c 
+  336  ls -l
+  337  ls
+  338  nano operation_bitwise_left_with_int.c 
+  339  cd ..
+  340  ls
+  341  cd
+  342  ls
+  343  rm -r RTR105_2019/
+  344  LS
+  345  ls
+  346  cd RTR105/
+  347  LS -L
+  348  ls -l
+  349  cd darbi/
+  350  ls -l
+  351  cat while_tests_1.c 
+  352  ls -l
+  353  cat for_tests_1.c
+  354  nano for_tests_1.c 
+  355  gcc for_tests_1.c 
+  356  ls
+  357  nano for_tests_1.c 
+  358  gcc for_tests_1.c 
+  359  ls -l
+  360  ./a.out 
+  361  nano for_tests_1.c 
+  362  nano for_tests_2.c 
+  363  cp for_tests_1.c for_tests_2.c
+  364  nano for_tests_2.c 
+  365  gcc for_tests_2.c 
+  366  nano for_tests_2.c 
+  367  gcc for_tests_2.c 
+  368  ./a.out 
+  369  nano for_tests_2.c 
+  370  cp for_tests_2.c for_tests_3.c 
+  371  nano for_tests_3.c 
+  372  gcc for_tests_3.c 
+  373  ./a.out 
+  374  nano for_tests_3.c 
+  375  ls -l
+  376  nano if_tests_1.c 
+  377  gcc if_tests_1.c 
+  378  nano if_tests_1.c 
+  379  gcc if_tests_1.c 
+  380  nano if_tests_1.c 
+  381  gcc if_tests_1.c 
+  382  ./a.out 
+  383  ls -l
+  384  nano if_tests_3.c 
+  385  gcc for_tests_3.c 
+  386  ./a.out 
+  387  nano if_tests_3.c 
+  388  gcc if_tests_3.c 
+  389  ./a.out 
+  390  ls -l
+  391  cat clear.save 
+  392  rm clear.save 
+  393  ls -
+  394  ls
+  395  rm a.out 
+  396  ls
+  397  ls -l
+  398  nano while_tests_1.c 
+  399  cp while_tests_1.c while_tests_2.c 
+  400  nano while_tests_1.c 
+  401  gcc while_tests_1.c 
+  402  ./a.out 
+  403  nano while_tests_1.c 
+  404  nano while_tests_2.c 
+  405  gcc while_tests_2.c 
+  406  nano while_tests_1.c 
+  407  nano while_tests_2.c 
+  408  gcc while_tests_2.c 
+  409  ls -l
+  410  nano if_tests_4_dalisana.c 
+  411  nano if_tests_even_odd_with_tic_toc.c 
+  412  gcc if_tests_even_odd_with_tic_toc.c 
+  413  ./a.out 
+  414  gcc operation_bitwise_left.c 
+  415  ./a.out 
+  416  nano operation_bitwise_left.c 
+  417  ls -l
+  418  cd ..
+  419  cd darbi/
+  420  ls -l
+  421  rm a.out 
+  422  ls -l
+  423  cd ..
+  424  ls -l
+  425  cat git-upload 
+  426  ./git-upload 
+  427  ./git-upload 20191014_12-59
+  428  cd darbi/
+  429  ls -l
+  430  cat 03.c
+  431  cd ..
+  432  darkstat
+  433  -
+  434  i
+  435  -i
+  436  [ -i ]
+  437  cd darbi/
+  438  ls -l
+  439  cd ..
+  440  ./git-upload 20191014_13-06
+  441  cd
+  442  ls -l
+  443  cd Pictures/
+  444  ls
+  445  ls -l
+  446  cd
+  447  ls -l
+  448  cd Pictures/
+  449  ls -l
+  450  ls
+  451  rm *.png
+  452  ls 
+  453  ls -l
+  454  cd
+  455  ls -l
+  456  cd RTR105/
+  457  ls
+  458  cd darbi/
+  459  ls -l
+  460  nano mainigadefinesana.c 
+  461  nano hello.c 
+  462  gcc hello.c 
+  463  ./a.out 
+  464  ls -l
+  465  rm a.out 
+  466  cp hello.c tests.c
+  467  nano tests.c 
+  468  cat tests.c 
+  469  gcc tests.c -o tests.out
+  470  ls -l tests.out 
+  471  ./tests.out 
+  472  cd
+  473  ls -l
+  474  cd Pictures/
+  475  ls -l
+  476  ls
+  477  ls Pictures/
+  478  rm *.png
+  479  ls -l
+  480  cd Pictures/
+  481  rm *.png
+  482  ls
+  483  ls -l
+  484  cd
+  485  cd RTR105/darbi/
+  486  ls -l
+  487  rm tests.out 
+  488  nano tests.c 
+  489  gcc tests.c 
+  490  ./a.out 
+  491  nano tests.c 
+  492  gcc tests.c 
+  493  nano tests.c 
+  494  ./a.out 
+  495  rm a.out 
+  496  cat tests.c 
+  497  gcc tests.c -o tests.out
+  498  ls -l tests.out 
+  499  ./tests.out 
+  500  cd
+  501  cd Pictures/
+  502  ls -l
+  503  cd RTR105/darbi/
+  504  ls -l
+  505  rm tests.out 
+  506  ls -l
+  507  cd ..
+  508  ./git-upload 2019_10_17-00_15
+  509  cmatrix
+  510  apt install cmatrix
+  511  sudo apt install cmatrix
+  512  ./cma
+  513  ./cmatrix
+  514  yes
+  515  yes <atpisies>
+  516  yes atpisies
+  517  rev
+  518  sudo apt install libaa-bin
+  519  aafire
+  520  espeak
+  521  figlet Welcome
+  522  ls
+  523  nano skaitlu_kartosana_aug_dilst_3mainigie.c 
+  524  nano string_letter_count_in_words.c 
+  525  nano string_word_count.c
+  526  nano string_word_count_and_count_words_wlenght_over5.c 
+  527  gcc string_word_count_and_count_words_wlenght_over5.c 
+  528  ./a.out 
+  529  nano string_word_count_and_count_words_wlenght_over5.c 
+  530  gcc string_word_count_and_count_words_wlenght_over5.c 
+  531  ./a.out 
+  532  nano string_word_count_and_count_words_wlenght_over5.c 
+  533  gcc string_word_count_and_count_words_wlenght_over5.c 
+  534  ./a.out 
+  535  nano string_word_count_and_count_words_wlenght_over5.c 
+  536  gcc string_word_count_and_count_words_wlenght_over5.c 
+  537  ./a.out 
+  538  nano string_word_count_and_count_words_wlenght_over5.c 
+  539  gcc string_word_count_and_count_words_wlenght_over5.c 
+  540  ./a.out 
+  541  nano string_word_count_and_count_words_wlenght_over5.c 
+  542  gcc string_word_count_and_count_words_wlenght_over5.c 
+  543  ./a.out 
+  544  nano string_word_count_and_count_words_wlenght_over5.c 
+  545  gcc string_word_count_and_count_words_wlenght_over5.c 
+  546  ./a.out 
+  547  nano string_word_count_and_count_words_wlenght_over5.c 
+  548  gcc string_word_count_and_count_words_wlenght_over5.c 
+  549  nano string_word_count_and_count_words_wlenght_over5.c 
+  550  gcc string_word_count_and_count_words_wlenght_over5.c 
+  551  ./a.out 
+  552  gcc string_word_count_and_count_words_wlenght_over5.c 
+  553  ./a.out 
+  554  gcc string_word_count_and_count_words_wlenght_over5.c 
+  555  nano string_word_count_and_count_words_wlenght_over5.c 
+  556  gcc string_word_count_and_count_words_wlenght_over5.c 
+  557  ./a.out 
+  558  nano string_word_count_and_count_words_wlenght_over5.c 
+  559  gcc string_word_count_and_count_words_wlenght_over5.c 
+  560  ./a.out 
+  561  nano string_word_count_and_count_words_wlenght_over5.c 
+  562  gcc string_word_count_and_count_words_wlenght_over5.c 
+  563  nano string_word_count_and_count_words_wlenght_over5.c 
+  564  gcc string_word_count_and_count_words_wlenght_over5.c 
+  565  nano string_word_count_and_count_words_wlenght_over5.c 
+  566  gcc string_word_count_and_count_words_wlenght_over5.c 
+  567  ./a.out 
+  568  nano string_word_count_and_count_words_wlenght_over5.c 
+  569  cd ..
+  570  ./git-upload 11-11-2019_19-33
+  571  ls
+  572  cd darbi/
+  573  ls
+  574  cd ..
+  575  ./git-upload 11-11-2019_19-33
+  576  ls
+  577  history
+  578  history>history2019_11_11.txt
