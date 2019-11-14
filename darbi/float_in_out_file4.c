@@ -29,10 +29,17 @@ int main() {
 
  fclose(fptr);
 
- if ((fptr = fopen("float_teskta_fails.txt","r")) == NULL) {
+ fptr = fopen("float_teksta_fails.txt","r");
+ if (fptr == NULL) {
+ printf("Error when opening file!");
+ exit(1);
+ }
+
+ //if fails eksiste, tad nav NULL. ja neeksiste, tad NULL
+/* if (( fptr = fopen("float_teksta_fails.txt","r")) == NULL) { //if fails eksiste, tad nav NULL. ja neeksiste, tad NULL
 	printf("Error when opening file!");
 	exit(1);
-	}
+	} */
 
  for(int i=0; i<5; i++) {
 	for(int j=0; j<2; j++) {
