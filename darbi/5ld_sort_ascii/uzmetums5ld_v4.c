@@ -5,7 +5,7 @@ int main()
 {
 	int text[25]={},i=0,j;
 	char a[25];
-	int max,min;
+	int max,min,sum=0;
 
 	printf("Ludzu, ievadiet simbolu rindu: ");
 	scanf("%[^\n]s", &a);
@@ -13,11 +13,11 @@ int main()
 	while(a[i]!='\0')
 	{
 		text[i]=a[i]; //char vertibas saglaba int test[], iegust ascii
-		i++;                                               //i=ievadito simbolu skaits
+		i++; //ievadito simbolu skaits
 	}
 
 	printf("Jusu ievaditais teksts: %s \n",a);
-	printf("Jusu ievadita teksta ANSII ekvivalents: ");
+	printf("Jusu ievadita teksta ASCII ekvivalents: ");
 
 	for(j=0;j<i;j++)
 	{
@@ -43,19 +43,26 @@ int main()
 	}
 
 
-	printf("Max pec ASCII ir %d \n",max); //kaa ievadit atbilstoso simbolu?
+	printf("Max pec ASCII ir %d \n",max);
 	printf("Min pec ASCII ir %d \n",min);
 
-//	for(j=0;j<i;j++)
-//	{
-//		sum=t
-//	}
+	for(j=0;j<i;j++)
+	{
+		sum = sum + text[j]; //visu simbolu ASCII summa
+	}
 
-	//videjo
-	//mediana
-	//moda vai modas
-	//augosa seciba pec ansii
-	//norada zem uzd vertibas
+	sum = sum /i; //i ir elementu skaits, sum ir summa, izdalot dabuj videejo
+
+	printf("All symbol average is: %d \n",sum);
+
+	
+
+	//1.sort no mazaka uz lielako
+	//2.atrast medianu
+	//3.moda
+	//4.simboli
+
 
 return 0;
 }
+ //GALVENAIS -  ASCII integer vieta atrast, ka ievietot atbilstosos simbolus pec nummuriem

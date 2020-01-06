@@ -6,7 +6,6 @@ int main()
 	int text[25]={},i=0,j;
 	char a[25];
 	int max,min;
-	char maxx, minn;
 
 	printf("Ludzu, ievadiet simbolu rindu: ");
 	scanf("%[^\n]s", &a);
