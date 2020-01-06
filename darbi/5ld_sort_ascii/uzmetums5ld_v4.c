@@ -5,7 +5,7 @@ int main()
 {
 	int text[25]={},i=0,j;
 	char a[25];
-	int max=0,min;
+	int max,min;
 
 	printf("Ludzu, ievadiet simbolu rindu: ");
 	scanf("%[^\n]s", &a);
@@ -25,16 +25,18 @@ int main()
 	}
 	printf("\n");
 
+	max = text[0];
+	min = text[0];
+
 	for(j=0;j<i;j++)
 	{
-		min = text[0];
 
 		if(text[j] > max) //atrod max ascii vertibu
 		{
 			max = text[j];
 		}
 
-		if(text[j] <= min) //atrod min ascii vertibu
+		if(text[j] < min) //atrod min ascii vertibu
 		{
 			min = text[j];
 		}
