@@ -13,7 +13,7 @@ int main()
 	while(a[i]!='\0')
 	{
 		text[i]=a[i]; //char vertibas saglaba int test[], iegust ascii
-		i++; //i=ievadito simbolu skaits
+		i++;                                               //i=ievadito simbolu skaits
 	}
 
 	printf("Jusu ievaditais teksts: %s \n",a);
@@ -42,10 +42,15 @@ int main()
 		}
 	}
 
-	printf("Max pec ASCII ir %d \n",max);
+
+	printf("Max pec ASCII ir %d \n",max); //kaa ievadit atbilstoso simbolu?
 	printf("Min pec ASCII ir %d \n",min);
 
-	//simbols ar min un max value (CHECK)
+//	for(j=0;j<i;j++)
+//	{
+//		sum=t
+//	}
+
 	//videjo
 	//mediana
 	//moda vai modas
