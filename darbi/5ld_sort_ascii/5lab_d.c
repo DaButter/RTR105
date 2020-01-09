@@ -86,7 +86,7 @@ j=0;
 
  //programmas nobeigums
  printf("________________________________________________________________\n");
- printf(" \n\n", lenght);
+ printf(" \n\n");
  return 0;
 }
 
