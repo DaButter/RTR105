@@ -6,10 +6,6 @@ int main()
 	int text[25]={},i=0,j;
 	char a[25];
 	int max,min,sum=0;
-	int sortmintext[25]={}; //masivi sortosanai
-	int sortmaxtext[25]={};
-
-	//sortotais masivs
 
 	printf("Ludzu, ievadiet simbolu rindu: ");
 	scanf("%[^\n]s", &a);
@@ -59,15 +55,6 @@ int main()
 
 	printf("All symbol average is: %d \n",sum);
 
-	for(j=0;j<i;j++)
-	{
-		//=huina prieks sortmaxtest[25 vai i] 
-	}
-
-	for(j=0;j<i;i++)
-	{
-		//huina prieks sortmintest[]
-	}
 
 	//moda = dala rindu skaitu uz 2 un atrod medianas rindu sortotajaa
 

@@ -1,0 +1,5 @@
+bisection method
+
+algorithm conditions
+
+

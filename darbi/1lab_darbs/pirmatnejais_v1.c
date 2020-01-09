@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <math.h>
+
 void main() {
  long double x=0, y, a, S;
  int k=0;
