@@ -1,8 +1,8 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
-int main(){
- //vieta mainīgajiem
+int main() {
+
  char in_st[200];
  int i, j, k, tmp, lenght, m_v=200, l_v=0, vid_v, medi, vertiba, kop_s=0;
  int max=0;
@@ -88,6 +88,7 @@ j=0;
  printf("________________________________________________________________\n");
  printf(" \n\n");
  return 0;
+
 }
 
 
