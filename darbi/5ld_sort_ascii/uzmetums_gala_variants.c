@@ -1,25 +1,20 @@
-#include <stdio.h> //nonemt garumzimes, izmaintit printf tesktus, izkarotojumu darbibam
+#include <stdio.h>
 #include <string.h>
 
 int main()
 {
 	char input[300];
 
-	int tmp;
-
-	int lenght;
 	int sum=0;
-	int i,j;
+	int i,j,a, lenght;
+
 	long int max,min; //izmantojot vienkarsi int, min vertiba lagoja
 	// radija -1483845 utml.
 
-	int medi;
 
 	printf("\nLudzu ievadiet simbolu rindu: "); //pienem max 40 simbolus
 	scanf("%[^\n]", input);
 	printf("\n");
-
-	lenght=strlen(input); //pieskir rindas garumu
 
 /*	for(j=0;j<lenght;j++)
 	{
@@ -28,7 +23,9 @@ int main()
 			printf("Lugums ievadit tikai burtus");
 			break;
 		}
-	} */
+	} */ //izvada pazinojumu un terminate all program
+
+	lenght = strlen(input); //pieskir rindas garumu
 
 	for (j=0;j<lenght;j++) //sakarto augosa seciba masivu
 	{
@@ -36,16 +33,16 @@ int main()
 		{
 			if (input[i]>input[i+1])
 			{
-				tmp =input[i+1];
+				a = input[i+1];
 				input[i+1] = input[i];
-				input[i]= tmp;
+				input[i]= a;
 			}
 		}
 	}
 
 	min, max =(int)input[0]; //uzskata 1 elementu ka max un min
 
-	for(i=0;lenght>i;i++)
+	for(i=0;i<lenght;i++)
 	{
 			if ((int)input[i] > max ) //salidzina 1 elementu ar parejiem, ta noskaidro max un min elementu
 			{
@@ -60,19 +57,19 @@ int main()
 		sum = sum+(int)input[i]; //sasumme visus elementus kopa ka int
 	}
 
-	printf("Mazākā vērtība pēc ASCII tabulas ir %d \n", min);
+	printf("Mazaka ievadita vertiba pec ASCII: %c = %d \n",min,min);
 
-	printf("Lielākā vērtība pēc ASCII tabulas ir %d \n", max);
+	printf("Lielaka ievadita vertiba pec ASCII: %c = %d \n",max,max);
 
-	printf("Vidējā vērtība ASCII sistēmā ir %d \n",sum/lenght);
+	printf("Videja vertiba pec ASCII: %d \n",sum/lenght);
 
-	printf("Ievadītas rindas mediana pēc ASCII sistēmas ir %d \n", input[lenght/2]);
+	printf("Mediana pec ASCII: %d \n", input[lenght/2]);
 
  //modas apreiķins un izdruka
 
 /* j=0;
 
- for(i=0;lenght>i;i++)
+ for(i=0;i<lenght;i++)
  {
 	if(input[i]==input[i+1])
 	{
@@ -91,7 +88,7 @@ int main()
 
  j=0;
 }
- for(i=0;lenght>i;i++)
+ for(i=0;i<lenght;i++)
  {
 	if(input[i]==input[i+1])
 	{
