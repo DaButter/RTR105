@@ -59,26 +59,7 @@ int main()
 
  //modas
 
-	/*j=0;
-	for(i=0;i<lenght;i++)
-	{
-		if(input[i]==input[i+1])
-		{
-			j++;
-		}
-
-		else if (input[i] != input[i+1])
-		{
-			if(j>max)
-			{
-				max=j;
-				j=0;
-			}
-
-		}
-	j=0;
-	}
-
+	/*
 	for(i=0;i<lenght;i++)
 	{
 		if(input[i]==input[i+1])
@@ -93,7 +74,6 @@ int main()
 				printf("moda pec ASCII: %d \n", input[i]);
 			}
 	        }
-	j=0;
 	} */
 
  //MODAS ALGORITMS NERABOTAJET SHAS
