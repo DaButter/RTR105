@@ -1,16 +1,42 @@
 #include <stdio.h>
 #include <string.h>
 
+int mode(char input[], int lenght)
+{
+	int maxvalue=0, maxcount=0,i,j;
+
+        for(i=0;i<lenght;i++)
+        {
+               int cnt = 0;
+
+                for(j=0;j<lenght;j++)
+                {
+                        if((int)input[j]==(int)input[i])
+                        {
+                                cnt++;
+                        }
+                }
+
+                if(cnt > maxcount)
+                {
+                        maxcount = cnt;
+                        maxvalue = (int)input[i];
+                }
+        }
+
+ return maxvalue;
+} //modas aprekinasanas funkcija
+
 int main()
 {
         char input[300];
-	int maxvalue=0, maxcount=0, cnt, sum=0,i,j,a,lenght;
+        int sum=0,i,j,a,lenght;
 
         long int max,min; //izmantojot vienkarsi int, min vertiba lagoja
         // radija -1483845 utml.
 
 
-        printf("\nLudzu ievadiet burtu rindu: "); //pienem max 300 simbolus
+        printf("\nLudzu ievadiet burtu rindu: "); //pienem max 400 simbolus
         scanf("%[^\n]", input);
         printf("\n");
 
@@ -46,27 +72,6 @@ int main()
                 sum = sum+(int)input[i]; //sasumme visus elementus kopa ka int
         }
 
-//MODA
-
-	for(i=0;i<lenght;i++)
-	{
-		cnt = 0;
-
-		for(j=0;j<lenght;j++)
-		{
-			if(input[j]==input[i])
-			{
-				cnt++;
-			}
-		}
-
-		if(cnt > maxcount)
-		{
-			maxcount = cnt;
-			maxvalue = input[i];
-		}
-	}			 //ka dabut vairakas modas?
-
 	//printf block
 
         printf("Mazaka ievadita vertiba pec ASCII: %c = %d \n",min,min);
@@ -77,9 +82,20 @@ int main()
 
 	//mediana /2, noprecizet, ja ir para skaitlis elementu
 
-        printf("Mediana pec ASCII: %c = %d \n",input[lenght/2],input[lenght/2]);
+	if(lenght%2 == 1)
+	{
+	        printf("Mediana pec ASCII: %c = %d \n",input[lenght/2],input[lenght/2]);
+	}
 
-	printf("Moda pec ASCII: %c = %d \n",maxvalue,maxvalue);
+	else if(lenght%2 == 0)
+	{
+		int med = (input[lenght/2]+input[(lenght/2)-1])/2; //seit kkas sapisies
+
+		printf("Mediana pec ASCII: %c = %d \n",med,med);
+	}
+
+
+	printf("Moda pec ASCII: %c = %d \n",mode(input,lenght),mode(input,lenght));
 
         printf("Print alfabetiska seciba: ");
 

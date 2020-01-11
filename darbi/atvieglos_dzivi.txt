@@ -1,0 +1,2 @@
+CLion prieks c un cpp
+pycharm prieks phyton

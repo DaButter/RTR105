@@ -1,9 +1,12 @@
-#include <stdio.h> //find and SHOW symbol
+#include <stdio.h>
 #include <string.h>
 
-int mode(char input[], int lenght)
+int* mode(char input[], int lenght)
 {
-	int maxvalue = 0, maxcount =0,i,j;
+	int maxcount=0,i,j;
+	int mods[300];
+
+	//memset lai iztiritu masivu
 
         for(i=0;i<lenght;i++)
         {
@@ -20,35 +23,26 @@ int mode(char input[], int lenght)
                 if(cnt > maxcount)
                 {
                         maxcount = cnt;
-                        maxvalue = (int)input[i];
+			memset(mods,0,300);
+                        mods[0] = (int)input[i];
                 }
         }
 
- return maxvalue;
-}
+ return mods;
+} //modas aprekinasanas funkcija
 
 int main()
 {
         char input[300];
-        int sum=0;
-        int i,j,a, lenght;
+        int sum=0,i,j,a,lenght;
 
         long int max,min; //izmantojot vienkarsi int, min vertiba lagoja
         // radija -1483845 utml.
 
 
-        printf("\nLudzu ievadiet simbolu rindu: "); //pienem max 40 simbolus
+        printf("\nLudzu ievadiet burtu rindu: "); //pienem max 400 simbolus
         scanf("%[^\n]", input);
         printf("\n");
-
-/*      for(j=0;j<lenght;j++)
-        {
-                if((int)input[j] < 33)
-                {
-                        printf("Lugums ievadit tikai burtus");
-                        break;
-                }
-        } */ //izvada pazinojumu un terminate all program
 
         lenght = strlen(input); //pieskir rindas garumu
 
@@ -82,41 +76,30 @@ int main()
                 sum = sum+(int)input[i]; //sasumme visus elementus kopa ka int
         }
 
-//MODA
-/*	int maxvalue=0, maxcount=0, cnt;
-
-	for(i=0;i<lenght;i++)
-	{
-		cnt = 0;
-
-		for(j=0;j<lenght;j++)
-		{
-			if(input[j]==input[i])
-			{
-				cnt++;
-			}
-		}
-
-		if(cnt > maxcount)
-		{
-			maxcount = cnt;
-			maxvalue = input[i];
-		}
-	}*/			 //ka dabut vairakas modas?
-
 	//printf block
-
-	printf("moda ir: %d \n",mode(input,lenght));
 
         printf("Mazaka ievadita vertiba pec ASCII: %c = %d \n",min,min);
 
         printf("Lielaka ievadita vertiba pec ASCII: %c = %d \n",max,max);
 
-        printf("Videja vertiba pec ASCII: %d \n",sum/lenght);
+        printf("Videja vertiba pec ASCII: %c = %d \n",sum/lenght,sum/lenght);
 
 	//mediana /2, noprecizet, ja ir para skaitlis elementu
 
-        printf("Mediana pec ASCII: %d \n", input[lenght/2]);
+	if(lenght%2 == 1)
+	{
+	        printf("Mediana pec ASCII: %c = %d \n",input[lenght/2],input[lenght/2]);
+	}
+
+	else if(lenght%2 == 0)
+	{
+		int med = (input[lenght/2]+input[(lenght/2)-1])/2; //seit kkas sapisies
+
+		printf("Mediana pec ASCII: %c = %d \n",med,med);
+	}
+
+
+	printf("Moda pec ASCII: %c = %d \n",mode(input,lenght),mode(input,lenght));
 
         printf("Print alfabetiska seciba: ");
 
