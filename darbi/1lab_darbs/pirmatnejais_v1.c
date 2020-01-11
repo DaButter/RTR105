@@ -15,7 +15,7 @@ void main() {
  printf("\t\t/      (2*k+1)!*2^\n");
  printf("\t\t------\n");
  printf("\t\t  k=0\n");
- 
+
 
  printf("\n\n\t __________________________________________________________________________");
  printf("\n\t| Lūdzu ievadiet izvēlēto x vērtību kurai velaties iegūt sinh vērtību:     |\n\t");
@@ -44,7 +44,8 @@ while(k<501){
  if (k==500||k==499){
  printf("\t|\t%d.   |    X=%.5Lg\t|\ta=%.5Lg\t|\tS= %.5Lg\t   |\n", k, x, a, S);
   }
- }
+ } //so izmainit, izdomat
+
  printf("\t|______________|________|_______________________|__________________________|\n");
 
  printf("\n\n");

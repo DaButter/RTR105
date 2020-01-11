@@ -1,5 +1,31 @@
-#include <stdio.h>
+#include <stdio.h> //find and SHOW symbol
 #include <string.h>
+
+int mode(char input[], int lenght)
+{
+	int maxvalue = 0, maxcount =0,i,j;
+
+        for(i=0;i<lenght;i++)
+        {
+               int cnt = 0;
+
+                for(j=0;j<lenght;j++)
+                {
+                        if((int)input[j]==(int)input[i])
+                        {
+                                cnt++;
+                        }
+                }
+
+                if(cnt > maxcount)
+                {
+                        maxcount = cnt;
+                        maxvalue = (int)input[i];
+                }
+        }
+
+ return maxvalue;
+}
 
 int main()
 {
@@ -57,7 +83,7 @@ int main()
         }
 
 //MODA
-	int maxvalue=0, maxcount=0, cnt;
+/*	int maxvalue=0, maxcount=0, cnt;
 
 	for(i=0;i<lenght;i++)
 	{
@@ -76,11 +102,11 @@ int main()
 			maxcount = cnt;
 			maxvalue = input[i];
 		}
-	}			 //ka dabut vairakas modas?
+	}*/			 //ka dabut vairakas modas?
 
 	//printf block
 
-	printf("moda ir: %d \n",maxvalue);
+	printf("moda ir: %d \n",mode(input,lenght));
 
         printf("Mazaka ievadita vertiba pec ASCII: %c = %d \n",min,min);
 
