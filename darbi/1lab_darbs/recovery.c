@@ -13,7 +13,7 @@ void main() {
 
  printf("\t\t \\          (-1)^     *x^ *2^\n"); //dalas augsa
 
- printf("\tf(x)=\t  |     -----------------------------   = (sin(sqrt(x)))^2\n"); //dalas vidus
+ printf("\ty(x)=\t  |     -----------------------------   = (sin(sqrt(x)))^2\n"); //dalas vidus
 
  printf("\t\t /\t           (2*k)!"); //dalas apaksa
 
@@ -27,29 +27,38 @@ void main() {
 
  printf("\n\t Lūdzu ievadiet izvēlēto x vērtību kurai velaties iegūt (sin(sqrt(x)))^2 vērtību: ");
  scanf("%Lg",&x);
+ printf("\n");
+// printf("\t %Lg",x);
+
+
+
 
 //matematiskās daļas apreķins
 
+// y = sinh(x/2);
  y = sin(sqrt(x))*sin(sqrt(x)); //tas ir ka ^2
+ printf("\t|\t\t\t\ty=(sin(sqrt(%.5Lg)))^2=%.5Lg\t\t\t   |\n",x,y);
+ printf("\t|__________________________________________________________________________|\n");
 
- printf("\n\t\t\t\t\tf(%.5Lg)=(sin(sqrt(%.5Lg)))^2=%.5Lg\n",x,x,y);
- printf("\n");
-
- a=sqrt(x);
+ a =x/2;
  S=a;
- //k sakas no 1
- for(k=1;k<501;k++) //te k=1
-	{
-	//k++; //a = x (!!!)
-//	a = a*(-4)/((2*k)*(2*k-1)*x);
 
-	a =a*(-4)/((2*k)*(2*k-1)*x); //APREKINAT VELREIZ R!!
-	S = S+a; //SUM
+//S0=a0;
+// printf("\t%8.5Lg\t%8.5Lg\t%8.5Lg\n",x, a, S);
+// printf("\t|__________________________________________________________________________|\n");
 
+while(k<501){
+ k++;
+ a = a *pow(x,2) /((2*k)*(2*k+1)*4);
+ S= S+a;
  if (k==500||k==499){
  printf("\t|\t%d.   |    X=%.5Lg\t|\ta=%.5Lg\t|\tS= %.5Lg\t   |\n", k, x, a, S);
   }
- }
+ } //so izmainit, izdomat
+
+ printf("\t|______________|________|_______________________|__________________________|\n");
 
  printf("\n\n");
 }
+
+
