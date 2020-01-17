@@ -45,12 +45,12 @@ int *mode(char input[], int lenght) {
 } //modas aprekinasanas funkcija
 
 int main() {
-    char input[300];
+    char input[400];
     int sum = 0, i, j, a, lenght;
 
     long int max, min;
 
-    printf("\nLudzu ievadiet burtu rindu: "); //pienem max 400 simbolus
+    printf("\nLudzu ievadiet burtu rindu (max 400 burtus) : ");
     scanf("%[^\n]", input);
 
     lenght = strlen(input); //pieskir rindas garumu
@@ -92,7 +92,7 @@ int main() {
     if (lenght % 2 == 1) {
         printf("\nMediana pec ASCII: %c = %d \n", input[lenght / 2], input[lenght / 2]);
     } else if (lenght % 2 == 0) {
-        int med = (input[lenght / 2] + input[(lenght / 2) - 1]) / 2; //seit kkas sapisies
+        int med = (input[lenght / 2] + input[(lenght / 2) - 1]) / 2; //medianas aprekinasanas funkcija
 
         printf("\nMediana pec ASCII: %c = %d \n", med, med);
     }
@@ -103,7 +103,7 @@ int main() {
 
     for (int k = 0; k < sizeof(modas); ++k) {
         if (modas[k] == -1) break;
-        printf("%c = %d \n", modas[k], modas[k]);
+        printf("%c = %d \n", modas[k], modas[k]); //printf modas no modas funkcijas sakumaa
     }
 
     printf("\nPrint alfabetiska seciba: ");
