@@ -45,12 +45,12 @@ int *mode(char input[], int lenght) {
 } //modas aprekinasanas funkcija
 
 int main() {
-    char input[400];
+    char input[300];
     int sum = 0, i, j, a, lenght;
 
     long int max, min;
 
-    printf("\nLudzu ievadiet burtu rindu (max 400 burtus) : ");
+    printf("\nLudzu ievadiet burtu rindu (max 300 burtus) : ");
     scanf("%[^\n]", input);
 
     lenght = strlen(input); //pieskir rindas garumu
