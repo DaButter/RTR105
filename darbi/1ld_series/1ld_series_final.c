@@ -3,28 +3,28 @@
 
 void main() {
 
-	long double x=0, y, a, Sum;
 	int k;
+	long double Sum,a,x,y;
 
 	//series vizualizacijas bloks;
 
-	printf("\n\n\n \t\t  500\n");
+	printf("\n\n\t   500 \n"); // ar \t taulaciju nocentre
 
-	printf("\t\t-------- \n");
+	printf("\t -------- \n");
 
-	printf("\t\t\\                (k+1)   k   (2k-1)\n"); //pakapes
+	printf("\t \\                (k+1)   k   (2k-1)\n"); //pakapes
 
-	printf("\t\t \\          (-1)^     *x^ *2^\n"); //dalas augsa
+	printf("\t  \\          (-1)^     *x^ *2^\n"); //dalas augsa
 
-	printf("\tf(x)=\t  |     -----------------------------   = (sin(sqrt(x)))^2\n"); //dalas vidus
+	printf(" f(x) =\t   |      ----------------------------   = (sin(sqrt(x)))^2\n"); //dalas vidus
 
-	printf("\t\t /\t           (2*k)!"); //dalas apaksa
+	printf("  \t  /\t           (2*k)!"); //dalas apaksa
 
-	printf("\n\t\t/\n"); //
+	printf("\n\t /\n"); //
 
-	printf("\t\t-------- \n");
+	printf("\t -------- \n");
 
-	printf("\t\t  k=1\n\n");
+	printf("\t   k=1\n\n");
 
 	// x ievadisana
 	printf("Ievadiet x vertibu, kurai velaties iegut (sin(sqrt(x)))^2: ");
@@ -38,7 +38,7 @@ void main() {
 
 	//SERIES SUM bloks
 
-	a = x; //a0=x
+	a=x;
 	Sum = a;
 	k=1; //k sakas no 1
 
@@ -57,14 +57,14 @@ void main() {
 		}
 	}
 
-	printf("\n\n");
+	printf("\nRekurences reizinatajs:\n\n");
 
 	//REKURENCES reizinataja vizualizacijas bloks
 
-	printf("\t\t           (-4)*x\n");
-	printf("\t\t R = -------------------- \n");
-	printf("\t\t        (2*k)*(2*k-1)\n");
+	printf("           (-4)*x\n");
+	printf(" R = -------------------- \n");
+	printf("        (2*k)*(2*k-1)\n");
 
-	printf("\n\n");
+	printf("\n");
 
  }
