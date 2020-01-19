@@ -2,12 +2,12 @@
 							
 Code
 
-#include <stdio.h>
-#include <math.h>
-
-void main() {
-
-	int k;
+	#include <stdio.h>
+  #include <math.h> 
+  
+  void main(){
+  
+  int k;
 	long double Sum,a,x,y;
 
 	//series vizualizacijas bloks;
@@ -68,9 +68,7 @@ void main() {
 	printf(" R = -------------------- \n");
 	printf("        (2*k)*(2*k-1)\n");
 
-	printf("\n");
-
- }
+	printf("\n");}
 
 
 Short description
