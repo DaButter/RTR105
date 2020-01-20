@@ -1,5 +1,5 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Laboratorijas darbs Nr.3. - Skaitliskā diferencēšana - atskaite
+# Laboratorijas darbs Nr.3 derivatives - atskaite
 
 ## Teorija
 
