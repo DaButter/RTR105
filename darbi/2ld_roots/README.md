@@ -84,7 +84,7 @@ Sakne atrodas pie x = 230.70312, jo sin(sqrt(x))^2 ir 0.496
 
 ### Analīze
 
-
+Programma strādā un ir spējīga pareizi atrast saknes pēc Dihotomijas principa.
 
 
 ### Funkcijas sin(sqrt(x))^2 ar atzīmētu aprēķināto sakni
