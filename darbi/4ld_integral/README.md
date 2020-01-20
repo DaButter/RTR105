@@ -2,6 +2,7 @@
 # Laboratorijas darbs Nr.4 atskaite - integral
 
 ## Teorija
+Integrēšana ir inversa darbība atvasināšanai. Ar integrāļu palīdzību var aprēķināt atbilstošo laukumu vai tilpumu zem funkcijas f(x) noteiktā x0 --> x1 apgabalā, kurš pirms tam definēts.
 
 Tā kā šo matemātikā nemācījāmies vēl, izmantoju video materiālus, lai apgūtu vielu:
 
@@ -112,12 +113,18 @@ Integrala vertiba izmantojot Simpsona likumu: 3.51982
 
 ### Analīze
 
+Kods *it kā* strādā. 
+Mani neapmierina fakts, ka salīdzinājumā ar wolfram-alpha aprēķināto, integrāļa vērtības nedaudz atšķirās. 
+Bet, ja neņem vērā šo atšķirību, programma strādā, starp 3 metodēm, kuras izmantotas, sākas atšķirības otrajā ciparā aiz komata.
+Kļūda iespējama, jo visticamāk neesmu līdz galam/nepareizi izpratis integrāļu matemātisko būtību un tas arī traucē precīzi uzrakstīt kodu, lai integrāļu vērtības ar visās 3 metodēs + ar wolfram-alpha pilnībā sakristu.
+
+Programma sākumā jautā lietotājam ievadīt x0 un x1, kas bus definetais x ass posms, kurā rēķinās funkcijas sin(sqrt(x))^2 inegrāļa vērtību.
 
 ### Screenhoti no wolframalpha
 
 ![WolframAlpha](https://github.com/DaButter/RTR105/blob/master/darbi/4ld_integral/wolframalpha_integral1to5.png)
 
-### Funkcijas un tā integrāļa grafiks
+### Funkcijas un tās integrāļa grafiks
 
 ![graph](https://github.com/DaButter/RTR105/blob/master/darbi/4ld_integral/integral_graph.png)
 
