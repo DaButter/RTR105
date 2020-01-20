@@ -3,7 +3,7 @@
 
 int main() {
 
-  float a,b,c,x,delta_x,funkca,funkcb,funkcx;
+  float a,b,c,fa,fb,x,delta_x;
   int i=0;
 
   printf("Ludzu, ievadiet sakuma robezu: ");
@@ -15,20 +15,20 @@ int main() {
   printf("Ludzu, ievadiet precizitati: ");
   scanf ("%e", &delta_x);
 
-  printf("Ludzu, ievadiet y, kuram aprekinat x: ");
+  printf("Ludzu, ievadiet y, kuram aprekinat x (c vertiba): ");
   scanf ("%f", &c);
 
-  funkca = sin(sqrt(a))*sin(sqrt(a))-c;
-  funkcb = sin(sqrt(b))*sin(sqrt(b))-c;
+  fa = sin(sqrt(a))*sin(sqrt(a))-c;
+  fb = sin(sqrt(b))*sin(sqrt(b))-c;
 
-  printf("sin(sqrt(%7.3f))^2 - %7.3f=%7.3f\t\t\t\t\t\t\t",a,c,funkca);
-  printf("sin(sqrt(%7.3f))^2 - %7.3f=%7.3f\n",b,c,funkcb);
+  printf("sin(sqrt(%7.3f))^2 - %7.3f=%7.3f\t\t\t\t\t\t\t",a,c,fa);
+  printf("sin(sqrt(%7.3f))^2 - %7.3f=%7.3f\n",b,c,fb);
 
  while ((b-a)>delta_x)
  {
  	 x = (a+b)/2.;
 
-  if(funkca*(sin(sqrt(x))*sin(sqrt(x))-c)>0)
+  if(fa*(sin(sqrt(x))*sin(sqrt(x))-c)>0)
   {
 
 	   a = x;
@@ -36,10 +36,10 @@ int main() {
 
   else
          b = x;
- 	 printf("sin(sqrt(%7.3f))^2 - %7.3f=%7.3f\t",a,c,funkca);
- 	 printf("sin(sqrt(%7.3f))^2 - %7.3f=%7.3f\t",b,c,funkcb);
+ 	 printf("sin(sqrt(%7.3f))^2 - %7.3f=%7.3f\t",a,c,fa);
+ 	 printf("sin(sqrt(%7.3f))^2 - %7.3f=%7.3f\t",b,c,fb);
   	 printf("sin(sqrt(%7.3f))^2 - %7.3f=%7.3f\n",x,c,sin(sqrt(x))*sin(sqrt(x))-c);
-   i++;
+   	 i++;
  }
 
 	 printf("\nIteraciju skaits: %d\n",i);
