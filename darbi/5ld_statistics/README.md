@@ -35,15 +35,15 @@ Print alfabetiska seciba: a a a d f s u u u
 
 Ievaditais simbols 	 ASCII vertiba
 Char 		              Dec 
-a 			                97 
-a 			                97 
-a 			                97 
-d 			                100 
-f 			                102 
-s 			                115 
-u 			                117 
-u 			                117 
-u 			                117 
+a 			              97 
+a 			              97 
+a 			              97 
+d 			              100 
+f 			              102 
+s 			              115 
+u 			              117 
+u 			              117 
+u 			              117 
 
 ```
 
