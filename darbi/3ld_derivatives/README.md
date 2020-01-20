@@ -86,7 +86,7 @@ Ludzu, ievadiet sakuma robezu x0: 1
 Ludzu, ievadiet beigu robezu x1: 10
 Ludzu, ievadiet precizitati delta_x (dx): 1
 
-//Programma ievada .dat failā:
+//Pēc ievadītajiem datiem, šo programma ievada atvasinajums.dat failā:
 
 	x		 f(x)		f'(x)		f"(x)
       1.00	         0.71	         0.49	         0.25
@@ -100,12 +100,16 @@ Ludzu, ievadiet precizitati delta_x (dx): 1
       9.00	         0.02	        -0.15	        -0.04
      10.00	         0.00	        -0.15	        -0.04
 
+//No atvasinajus.dat tiek plotots gnuplot grafiks
+
 ```
 
 ### Analīze
 
+Manuprāt, programma strādā korekti, atvasinājumu vērtības ir atbilstošas. Problēmas sagādāja grafika plotošana, jo brīžiem šķita, ka gnuplot neatšķir kolonnas no rindām. Attēlā lejā attēlots grafiks, kāds bijis Rezultāta piemērā.
+Programmu esmu centies rakstit arī pēc iespējas optimizētāku, neveicot liekas darbības.
 
-### Attēls
+### Grafiks
 
 ![Atvasinajumu grafiks](https://github.com/DaButter/RTR105/blob/master/darbi/3ld_derivatives/grafiks_by_gnuplot.png)
 
