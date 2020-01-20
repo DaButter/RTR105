@@ -114,11 +114,12 @@ Integrala vertiba izmantojot Simpsona likumu: 3.51982
 ### Analīze
 
 Kods *it kā* strādā. 
+
 Mani neapmierina fakts, ka salīdzinājumā ar wolfram-alpha aprēķināto, integrāļa vērtības nedaudz atšķirās. 
 Bet, ja neņem vērā šo atšķirību, programma strādā, starp 3 metodēm, kuras izmantotas, sākas atšķirības otrajā ciparā aiz komata.
-Kļūda iespējama, jo visticamāk neesmu līdz galam/nepareizi izpratis integrāļu matemātisko būtību un tas arī traucē precīzi uzrakstīt kodu, lai integrāļu vērtības ar visās 3 metodēs + ar wolfram-alpha pilnībā sakristu.
+Kļūda iespējama, jo visticamāk neesmu līdz galam/nepareizi izpratis integrāļu matemātisko būtību un tas arī traucē precīzi uzrakstīt kodu, lai integrāļu vērtības ar visās 3 metodēs + ar wolfram-alpha pilnībā sakristu. Arī grafiki salīdzinājumā ar wolframalpha pilnībā nesakrīt.
 
-Programma sākumā jautā lietotājam ievadīt x0 un x1, kas bus definetais x ass posms, kurā rēķinās funkcijas sin(sqrt(x))^2 inegrāļa vērtību.
+Programma sākumā jautā lietotājam ievadīt x0 un x1, kas bus definetais x ass posms, kurā rēķinās funkcijas sin(sqrt(x))^2 integrāļa vērtību, pec tam jautā precizitāti deltax. Pēc tam izvada 3 aprēķinātus integrāļus pēc 3 dažādām metodēm.
 
 ### Screenhoti no wolframalpha
 
