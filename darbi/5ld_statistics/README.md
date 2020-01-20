@@ -1,9 +1,10 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Laboratorijas darbs Nr.5. - Statistika - atskaite
+# Laboratorijas darbs Nr.5 atskaite - Statistics
 
 ## Teorija
-Ja ir vajadzīgi izpildīt kādas statistikas uzdevumus vai kārtošanu, mēs varam izmantot C valodu.
-Lai tas paradītu, es uzrakstīju programmu, kura kārto un atrod modu, mediānu, vidējo, minimālo un maksimālo simbolu vērtību(pēc ASCII tabulas) ievadītai simbolu rindai.    
+
+Statistika ir matemātikas apakšnozare, kas nodarbojas ar datu kārtošanu, pētnecību. Šī programma sakārto ievadītos datus, atrod tajos statistikas pamatlielumus - modu, mediānu, max un min vērtību, kā arī sakārto alfabētiski.
+Statistika noder arī, lai datus sakārtotu lietotājam pārskatāmi, ērti.
 
 ### Kods
 ```
@@ -170,9 +171,23 @@ u 			      117
 ```
 
 ### Analīze
-Izpildot kodu, man sanāca, ka programma pareizi izpilda visus aprēķinus un arī pareizi sakārto simbolus alfabēta secībā.
+
+Kompilējot kod ar gcc -lm un palaižot, programma pajautā lietotājam ievadīt burtu rindu ar maksimums 300 simboliem (jo uzliku maksimālo masīva ietilpību 300, to, protams, var mainīt pēc saviem ieskatiem kodā). Ievadot simbolu rindu un nospiežot enter, tiek izvadīts sekojošais:
+
+1. Ievadīto simbolu skaits.
+2. Mazākā ievadītā simbola vērtība pēc ASCII. (izvada simbolu un atbilstošo ASCII vērtību)
+3. Lielākā simbola ievadītā vērtība pēc ASCII. (izvada simbolu un atbilstošo ASCII vērtību)
+4. Aritmētiskā vidējā no visiem ievadītajiem simboliem. (izvada simbolu un atbilstošo ASCII vērtību)
+5. Mediāna no visiem ievadītajiem simboliem. (izvada simbolu un atbilstošo ASCII vērtību)
+6. Moda vai vairākas modas no visiem ievadītajiem simboliem. (izvada simbolu un atbilstošo ASCII vērtību)
+7. Sakārtoti ievadītie burti alfabētiskā secībā.
+8. Burti sakārtoti alfabētiski tabulā un katram pretī ir atbilstošā ASCII vērtība.
+
+Testējot programmu, secinu, ka programma strādā korekti, izvada pareizas vērtības.
+
+Trūkumi - manuprāt, kodu iespējams uzrakstīt efektīvāk, izmantojot daudz vienkāršāku modas aprēķina pricpipu. Masīvs rezervē vietu datora operatīvajā atmiņā. Koda beigās šī atmiņas rezervācija tiek atcelta, lai nepiesārņotu datora operatīvo atmiņu. Kaut gan ietilpīgāks, bet šis modas aprēķināšanas princips, kas atrodams manā kodā, vienmēr garantēti atradīs visas ievadītās modas.
 
 ### Attēls
 
-![Histogramma]()
+![!edit later]()
 
