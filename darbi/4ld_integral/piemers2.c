@@ -56,5 +56,22 @@ void main(){
 	}
 
 	printf("integral, using Simpson\'s rule: %.5f\n",int2);
+ n =2;
+ int1 =0;
+ int2 = (b-a)*(sin(sqrt(a))*sin(sqrt(a))+sin(sqrt(b))*sin(sqrt(b)))/2.;
+ while(fabs(int2 - int1)>delta_x){
+  n*=2;
+  h=(b-a)/n;
+  int1=int2;
+  int2=0.;
+ for(k=1;k<n;k++) int2+=sin(sqrt(a+(k)*h));
+ int2+=(sin(sqrt(b))*sin(sqrt(b))+sin(sqrt(a))*sin(sqrt(a)))/2;
+ int2*=h;
+ }
+ printf("integrālis, aprēķināts ar trapeču metodi: %.5f\n",int2);
 
 }
+
+
+
+
