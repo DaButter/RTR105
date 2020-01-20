@@ -4,6 +4,7 @@
 ## Teorija
 
 Funkcijas atvasinājums ir oriģinālās funkcijas izmaiņas atspoguļojums. Mana funkcija sin(sqrt(x))^2 tika atvasināta vienkārši un divkārši pēc klasiskajām matemātikas atvasināšanas metodēm, ko mācījāmies 1.kursa 1.semestrī.  
+Pie komentariem kodā 1k atvasinajums un 2k atvasinajums tika atvasinati manuali, pēc tam atvasinātās formulas ievietotas kodā.
 
 ### Kods
 ```
