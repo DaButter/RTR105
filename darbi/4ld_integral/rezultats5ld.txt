@@ -1,8 +1,11 @@
-lūdzu, ievadi sākuma robežu: 1
-lūdzu, ievadi beigas robežu: 3
-lūdzu, ievadi precizitāti: 4
 
-integral, using rectangle rule: 1.68229
-integral, using Simpson's rule: 1.68229
-integrālis, aprēķināts ar trapeču metodi: 1.68229
+Ludzu, ievadiet sakuma robezu x0: 1
+Ludzu, ievadiet beigas robežu x1: 5
+Ludzu, ievadiet precizitati delta_x(dx): 2
+
+Integrala vertiba izmantojot taisnstura metodi: 3.52383
+
+Integrala vertiba izmantojot trapeces metodi: 3.54761
+
+Integrala vertiba izmantojot Simpsona likumu: 3.51982
 
