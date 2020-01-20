@@ -109,7 +109,7 @@ Ludzu, ievadiet precizitati delta_x (dx): 1
 Manuprāt, programma strādā korekti, atvasinājumu vērtības ir atbilstošas. Problēmas sagādāja grafika plotošana, jo brīžiem šķita, ka gnuplot neatšķir kolonnas no rindām. Attēlā lejā attēlots grafiks, kāds bijis Rezultāta piemērā.
 Programmu esmu centies rakstit arī pēc iespējas optimizētāku, neveicot liekas darbības.
 
-### Grafiks
+### f(x) ; f'(x) ; f''(x) grafiki
 
 ![Atvasinajumu grafiks](https://github.com/DaButter/RTR105/blob/master/darbi/3ld_derivatives/grafiks_by_gnuplot.png)
 
