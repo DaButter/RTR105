@@ -1,5 +1,5 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Laboratorijas darbs Nr.2 atskaite - roots
+# 						Laboratorijas darbs Nr.2 atskaite - roots
 
 ## Teorija
 
@@ -85,6 +85,8 @@ Sakne atrodas pie x = 230.70312, jo sin(sqrt(x))^2 ir 0.496
 ### Analīze
 
 
-### sin(sqrt(x))^2 ar atzīmētu aprēķināto sakni
+
+
+### Funkcijas sin(sqrt(x))^2 ar atzīmētu aprēķināto sakni
 ![Grafiks un punkts](https://github.com/DaButter/RTR105/blob/master/darbi/2ld_roots/sakne2.png)
 
