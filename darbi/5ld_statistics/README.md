@@ -187,7 +187,4 @@ Testējot programmu, secinu, ka programma strādā korekti, izvada pareizas vēr
 
 Trūkumi - manuprāt, kodu iespējams uzrakstīt efektīvāk, izmantojot daudz vienkāršāku modas aprēķina pricpipu. Masīvs rezervē vietu datora operatīvajā atmiņā. Koda beigās šī atmiņas rezervācija tiek atcelta, lai nepiesārņotu datora operatīvo atmiņu. Kaut gan ietilpīgāks, bet šis modas aprēķināšanas princips, kas atrodams manā kodā, vienmēr garantēti atradīs visas ievadītās modas.
 
-### Attēls
-
-![!edit later]()
 
