@@ -1,8 +1,9 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Laboratorijas darbs Nr.1. - Teilora rinda - atskaite
+# Laboratorijas darbs Nr.1 atskaite - Teilora rinda
 
 ## Teorija
-Izmantojot Teilora rundu, var vieglāk atrast funkcijas vērtību, aizstājot funkciju ar pakāpes serijas summu.
+
+Funkcijas vērtību var aprēķināt divejādi - vienkārši aprēķinot, izmantojot matemātikas bibliotēkas. Vai arī izmantojot vienkāršas darbības (reizināšanu, dalīšanu, atņemšanu, saskaitīšanu) atbilstošajā Teilora rindā. Rindas summa ir atbilstošās funkcijas vērtība.
 
 ### Kods
 ```
@@ -114,6 +115,7 @@ Rekurences reizinatajs:
 
 Kompilejot kodu ar gcc -lm, programma pajautā lietotājam ievadīt atbilstošo x vērtību, kādu vēlās aprēķināt funkcijai sin(sqrt(x))^2 (kuru esmu pierakstījis kā sin(sqrt(x)) * sin(sqrt(x)). Pēc x vērtības ievadīšanas, programma izvada atbilstošo Teilora rindas (30.variants) vizuālo izskatu, aprēķina funkcijas vērtību divejādi: 1.Izvada izmantojot matemātikas pakotnes, vienkārši aprēķinot.
 2.Izvada funkcijas vērtību izmantojot Teilora rindas. S = [*rezultats*]. Pirmajā kolonnā norāda, kura summēšanas reize tā ir (k vērtība), otrā kolonna izvada, kada x vertība tika izmantota (vienmēr lietotāja ievadītā), 3 kolonna norāda reizinātāja a vērtību, kāda tika izmantota atbilstošajā 499. vai 500. reizināšanas reizē ar rekurences reizinātāju. 4 kolonna izvadīta Teilora rindas summa.
+Zem tabulas izvadīta rekurences reizinātāja vizuālais izskats
 
 Funkcijas aprēķināta vērtība sakrīt ar Teilora rindas aprēķināto vērtību, līdz ar to varu sacīt, ka programma strādā korekti.
 
