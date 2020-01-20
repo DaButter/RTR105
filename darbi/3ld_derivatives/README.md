@@ -2,91 +2,110 @@
 # Laboratorijas darbs Nr.3. - Skaitliskā diferencēšana - atskaite
 
 ## Teorija
-Parasti, lai aprēķināt atvasinājumus, izmanto analitiskās formulas, bet ir iespējams izmantot arī citu paņēmienu.
-Var aprēķināt atvasinājumus, izmantojot forward difference metodu.
-Lai saprast šo metodu, es izmantoju sekojošu informācijas avotu: https://en.wikipedia.org/wiki/Finite_difference   
+
+Funkcijas atvasinājums ir oriģinālās funkcijas izmaiņas atspoguļojums. Mana funkcija sin(sqrt(x))^2 tika atvasināta vienkārši un divkārši pēc klasiskajām matemātikas atvasināšanas metodēm, ko mācījāmies 1.kursa 1.semestrī.  
 
 ### Kods
 ```
-#include<stdio.h>
-#include<math.h>
-void data_table_in_file(int k,float a,float b, float delta_x);
-double function(double x, double x1,double delta_x);
+#include <stdio.h>
+#include <math.h>
 
+void saving(int k,float dx,float b, float a);
 void main(){
- int k=0;
- float a=0.,b=0.,x,delta_x=1.e-1;
 
-  printf("Lietotājs,lūdzu, ievadi sākuma robežu: ");
+  int k;
+  float a,b,x,dx;
+
+  printf("Ludzu, ievadiet sakuma robezu x0: ");
   scanf ("%f", &a);
 
-  printf("Lietotājs,lūdzu, ievadi beigas robežu: ");
+  printf("Ludzu, ievadiet beigu robezu x1: ");
   scanf ("%f", &b);
 
-  printf("Lietotājs,lūdzu, ievadi precizitāti: ");
-  scanf ("%e", &delta_x);
+  printf("Ludzu, ievadiet precizitati delta_x (dx): ");
+  scanf ("%e", &dx);
 
   x=a;
-  while(x<=b){
-  k++;
-  x+= delta_x;
+  k=0;
+  while(x<=b)
+  {
+	  k++;
+	  x=x+dx;
   }
- data_table_in_file(k,a,b,delta_x);
-}
-double function(double x, double x1,double delta_x){
-float y;
- y= (x1-x)/delta_x;
-	return y;
+
+ saving(k,dx,a,b);
 }
 
-void data_table_in_file(int k,float a,float b, float delta_x){
-int i;
-float x[k],y1[k],y2[k],y3[k],y4[k],y5[k];
- FILE *fp = fopen("./derivative.dat", "w");
- fprintf(fp,"\tx\t\tf(x)\t\tf\'(x)\t\tf\"(x)\t\tf\'(x)\t\tf\"(x)\n");
+double f(double x, double x1,double dx){
 
- for(i=0;i<k;i++){
- if (i==0)
-  x[i]=a;
- else
-  x[i] = x[i-1] + delta_x;
- y1[i] = (1+x[i])*exp(x[i]);//analytic
- y2[i] = (2+x[i])*exp(x[i]);//analytic
- y3[i] = (3+x[i])*exp(x[i]);//analytic
- }
+	float y;
 
- for(i=0;i<(k-1);i++)
-  y4[i]= function(y1[i],y1[i+1],delta_x);//forward difference
+	y= (x1-x)/dx;
+
+ return y;
+}
+
+void saving(int k,float dx,float a, float b){
+
+	int i;
+	float x[k],y1[k],y2[k],y3[k],y4[k],y5[k];
+
+	FILE *fp = fopen("./atvasinajums.dat", "w");
+	fprintf(fp,"\tx\t\t f(x)\t\tf\'(x)\t\tf\"(x)\n");
 
 
- for(i=0;i<(k-2);i++)
-  y5[i] = function(y2[i],y2[i+1],delta_x);//forward difference
-  for(i=0;i<k;i++)
-   fprintf(fp,"%10.2f\t%13.2f\t%13.2f\t%13.2f\t%13.2f\t%13.2f\n",x[i],y1[i],y2[i],y3[i],y4[i],y5[i]);
+	for(i=0;i<k;i++)
+	{
+		if (i==0)
+		{
+ 			 x[i]=a;
+		}
+ 	else
+ 		x[i] = x[i-1] + dx;
+		y1[i] = sin(sqrt(x[i]))*sin(sqrt(x[i])); //originala funkcija
+		y2[i] = sin(sqrt(2*x[i]))/(2*sqrt(x[i])); //1k atvasinajums
+		y3[i] = (2*sqrt(x[i])*sin(sqrt(2*x[i]))-sin(sqrt(2*x[i])))/(4*x[i]*sqrt(x[i])); //2k atvasinajums
+	}
+
+	for(i=0;i<k;i++)
+	{
+		fprintf(fp,"%10.2f\t%13.2f\t%13.2f\t%13.2f\n",x[i],y1[i],y2[i],y3[i]);
+	}
+
  fclose(fp);
+
 }
 
 ```
-Kad programma izpildās, lietotājs ievada intervāla sākumu un beigas, kā arī vajadzīgo precezitāti.
-Pēc tam programma atrisina pirmās un otrās kārtas atvasinājumus gan izmantojot analitisko formulu, gan izmantojot diferencēšanu uz priekšu.
-y1,y2 un y3 ir atrisināti analitiski, bet y4 un y4 - izmantojot diferencēšanu uz priekšu.
 
 ### Rezultāts
 ```
-Funkcijas atvasinājumu aprēķināšana: 
-Lietotājs,lūdzu, ievadi sākuma robežu: 0
-Lietotājs,lūdzu, ievadi beigas robežu: 3
-Lietotājs,lūdzu, ievadi precizitāti: 1.e-5
+//Programma izvada:
+
+Ludzu, ievadiet sakuma robezu x0: 1
+Ludzu, ievadiet beigu robezu x1: 10
+Ludzu, ievadiet precizitati delta_x (dx): 1
+
+//Programma ievada .dat failā:
+
+	x		 f(x)		f'(x)		f"(x)
+      1.00	         0.71	         0.49	         0.25
+      2.00	         0.98	         0.32	         0.15
+      3.00	         0.97	         0.18	         0.08
+      4.00	         0.83	         0.08	         0.03
+      5.00	         0.62	        -0.00	        -0.00
+      6.00	         0.41	        -0.06	        -0.02
+      7.00	         0.23	        -0.11	        -0.03
+      8.00	         0.09	        -0.13	        -0.04
+      9.00	         0.02	        -0.15	        -0.04
+     10.00	         0.00	        -0.15	        -0.04
 
 ```
 
 ### Analīze
-Izpildot šo programmu, man sanāca, ka programma pareizi aprēķinā atvasinājumus, izmantojot gan analitiskās formulas, gan izmantojot diferencēšanu uz priekšu.
-Rakstot šo programmu, es pamanīju, ka, ja izmantot datus, iegūtas ar diferencēšanu uz priekšu, otras kārtas atvasinājumu aprēķināšanai ar to pašu metodu, tad rezultāti nesakrīt ar datiem, iegūtas ar analitisko formulu.
-Tas notiek, jo šajā gadijuma starpība starp datiem ir niecīga, tāpēc paradās nepareizi rezultāti.
-Lai atrisinātu šo problēmu, es izmantoju datus, iegūtas ar analitisko formulu, otras kārtas atvasinājumu aprēķināšanai ar diferencēšanu uz priekšu.
+
 
 ### Attēls
 
-![Funkcijas un to atvasinājumu attēls](https://github.com/daniil172101/RTR105_2019/blob/master/darbi/3ld_derivative/derivatives.png)
+![!edit later :0]()
 
