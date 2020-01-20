@@ -6,7 +6,7 @@ int main() {
   float a,b,c,fa,fb,x,delta_x;
   int i=0;
 
-  printf("Ludzu, ievadiet sakuma robezu: ");
+  printf("\nLudzu, ievadiet sakuma robezu: ");
   scanf ("%f", &a);
 
   printf("Ludzu, ievadiet beigu robezu: ");
@@ -15,8 +15,9 @@ int main() {
   printf("Ludzu, ievadiet precizitati: ");
   scanf ("%e", &delta_x);
 
-  printf("Ludzu, ievadiet y, kuram aprekinat x (c vertiba): ");
+  printf("Ludzu, ievadiet funkcijas vertibu, kuram aprekinat x: ");
   scanf ("%f", &c);
+  printf("\n\n");
 
   fa = sin(sqrt(a))*sin(sqrt(a))-c;
   fb = sin(sqrt(b))*sin(sqrt(b))-c;

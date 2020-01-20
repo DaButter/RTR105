@@ -1,0 +1,18 @@
+
+Ludzu, ievadiet sakuma robezu: 23
+Ludzu, ievadiet beigu robezu: 234
+Ludzu, ievadiet precizitati: 4
+Ludzu, ievadiet funkcijas vertibu, kuram aprekinat x: 5
+
+
+sin(sqrt( 23.000))^2 -   5.000= -4.007							sin(sqrt(234.000))^2 -   5.000= -4.840
+sin(sqrt(128.500))^2 -   5.000= -4.007	sin(sqrt(234.000))^2 -   5.000= -4.840	sin(sqrt(128.500))^2 -   5.000= -4.111
+sin(sqrt(181.250))^2 -   5.000= -4.007	sin(sqrt(234.000))^2 -   5.000= -4.840	sin(sqrt(181.250))^2 -   5.000= -4.390
+sin(sqrt(207.625))^2 -   5.000= -4.007	sin(sqrt(234.000))^2 -   5.000= -4.840	sin(sqrt(207.625))^2 -   5.000= -4.072
+sin(sqrt(220.812))^2 -   5.000= -4.007	sin(sqrt(234.000))^2 -   5.000= -4.840	sin(sqrt(220.812))^2 -   5.000= -4.437
+sin(sqrt(227.406))^2 -   5.000= -4.007	sin(sqrt(234.000))^2 -   5.000= -4.840	sin(sqrt(227.406))^2 -   5.000= -4.655
+sin(sqrt(230.703))^2 -   5.000= -4.007	sin(sqrt(234.000))^2 -   5.000= -4.840	sin(sqrt(230.703))^2 -   5.000= -4.754
+
+Iteraciju skaits: 6
+Sakne atrodas pie x = 230.70312, jo sin(sqrt(x))^2 ir 0.496
+
