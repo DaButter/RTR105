@@ -1,7 +1,7 @@
 
-Ludzu, ievadiet sakuma robezu x0: 1
-Ludzu, ievadiet beigas robežu x1: 5
-Ludzu, ievadiet precizitati delta_x(dx): 2
+Ludzu ievadiet sakuma robezu x0: 1
+Ludzu ievadiet beigas robežu x1: 5
+Ludzu ievadiet precizitati delta_x(dx): 2
 
 Integrala vertiba izmantojot taisnstura metodi: 3.52383
 

@@ -7,16 +7,16 @@ void main(){
 
 	float a=0.,b=0,dx; //ievaditie lielumi
 
-	float intgr1=0.,intgr2=0.,intgr3=0.,h; //h-augst
+	float intgr1=0.,intgr2=0.,intgr3=0.,h; //h-augst un izvades integrali
 
 
-	printf("Ludzu, ievadi sakuma robezu x0: ");
+	printf("Ludzu ievadiet sakuma robezu x0: ");
 	scanf("%f", &a);
 
-	printf("Ludzu, ievadi beigu robezu x1: ");
+	printf("Ludzu ievadiet beigu robezu x1: ");
 	scanf("%f", &b);
 
-	printf("Ludzu, ievadi precizitati delta_x(dx): ");
+	printf("Ludzu ievadiet precizitati delta_x(dx): ");
 	scanf ("%e", &dx);
 
 	intgr2=(b-a)*(sin(sqrt(a))*sin(sqrt(a))+sin(sqrt(b))*sin(sqrt(b)))/2.;
