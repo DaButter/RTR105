@@ -3,6 +3,11 @@
 
 ## Teorija
 
+Tā kā šo matemātikā nemācījāmies vēl, izmantoju video materiālus, lai apgūtu vielu:
+
+https://www.youtube.com/watch?v=ns3k-Lz7qWU Simpsons Rule - Approximate Integration
+https://www.youtube.com/watch?v=8z6JRFvjkpc The Trapezoid Rule for Approximating Integrals
+https://www.youtube.com/watch?v=Gi8_a7NlKAQ Approximating a Definite Integral Using Rectangles
 
 
 ### Kods
