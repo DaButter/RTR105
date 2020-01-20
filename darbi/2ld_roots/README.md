@@ -1,5 +1,5 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Laboratorijas darbs Nr.2 atskaite - Roots, Dihotomija
+# Laboratorijas darbs Nr.2 atskaite - roots
 
 ## Teorija
 
