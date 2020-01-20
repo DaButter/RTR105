@@ -113,12 +113,13 @@ Rekurences reizinatajs:
 
 ### Analīze
 
-Kompilejot kodu ar gcc -lm, programma pajautā lietotājam ievadīt atbilstošo x vērtību, kādu vēlās aprēķināt funkcijai sin(sqrt(x))^2 (kuru esmu pierakstījis kā sin(sqrt(x)) * sin(sqrt(x)). Pēc x vērtības ievadīšanas, programma izvada atbilstošo Teilora rindas (30.variants) vizuālo izskatu, aprēķina funkcijas vērtību divejādi: 1.Izvada izmantojot matemātikas pakotnes, vienkārši aprēķinot.
+Palaužot programmu, tā jautā lietotājam ievadīt atbilstošo x vērtību, kādu vēlās aprēķināt funkcijai sin(sqrt(x))^2 ( kuru esmu pierakstījis kā sin(sqrt(x)) * sin(sqrt(x)) ). Pēc x vērtības ievadīšanas, programma izvada atbilstošo Teilora rindas (30.variants) vizuālo izskatu, aprēķina funkcijas vērtību divejādi: 
+1.Izvada izmantojot matemātikas pakotnes, vienkārši to aprēķinot.
 2.Izvada funkcijas vērtību izmantojot Teilora rindas. S = [*rezultats*]. Pirmajā kolonnā norāda, kura summēšanas reize tā ir (k vērtība), otrā kolonna izvada, kada x vertība tika izmantota (vienmēr lietotāja ievadītā), 3 kolonna norāda reizinātāja a vērtību, kāda tika izmantota atbilstošajā 499. vai 500. reizināšanas reizē ar rekurences reizinātāju. 4 kolonna izvadīta Teilora rindas summa.
 Zem tabulas izvadīta rekurences reizinātāja vizuālais izskats
 
-Funkcijas aprēķināta vērtība sakrīt ar Teilora rindas aprēķināto vērtību, līdz ar to varu sacīt, ka programma strādā korekti.
+Funkcijas aprēķināta vērtība sakrīt ar Teilora rindas aprēķināto vērtību, līdz ar to varu sacīt, ka programma strādā korekti un ir pārskatāma.
 
-### Funkcijas grafika attēls
+### Dotās funkcijas sin(sqrt(x))^2 grafiks
 
 ![Funkcijas grafiks](https://github.com/DaButter/RTR105/blob/master/darbi/1ld_series/graph_image.png)
