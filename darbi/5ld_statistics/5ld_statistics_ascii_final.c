@@ -55,6 +55,8 @@ int main() {
 
     lenght = strlen(input); //pieskir rindas garumu
 
+    printf("\nIevadito simbolu skaits: %d\n",lenght);
+
     for (j = 0; j < lenght; j++) //sakarto augosa seciba masivu
     {
         for (i = 0; i < lenght - 1; i++) {
