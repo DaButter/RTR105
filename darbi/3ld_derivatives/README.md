@@ -107,5 +107,5 @@ Ludzu, ievadiet precizitati delta_x (dx): 1
 
 ### Attēls
 
-![!edit later :0]()
+![Atvasinajumu grafiks](https://github.com/DaButter/RTR105/blob/master/darbi/3ld_derivatives/grafiks_by_gnuplot.png)
 
