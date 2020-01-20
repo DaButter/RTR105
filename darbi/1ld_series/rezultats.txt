@@ -1,0 +1,26 @@
+
+	   500 
+	 -------- 
+	 \                (k+1)   k   (2k-1)
+	  \          (-1)^     *x^ *2^
+ f(x) =	   |      ----------------------------   = (sin(sqrt(x)))^2
+	  /	           (2*k)!
+	 /
+	 -------- 
+	   k=1
+
+Ievadiet x vertibu, kurai velaties iegut (sin(sqrt(x)))^2: 4
+
+Izmantojot math: f(4)=(sin(sqrt(4)))^2=0.82682
+
+Izmantojot series summu: 
+
+499.   |    X=4	|	a=8.9076e-1962	|	S=0.82682	
+500.   |    X=4	|	a=-1.4266e-1966	|	S=0.82682	
+
+Rekurences reizinatajs:
+
+           (-4)*x
+ R = -------------------- 
+        (2*k)*(2*k-1)
+
