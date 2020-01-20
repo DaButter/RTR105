@@ -1,5 +1,5 @@
 <!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
-# Laboratorijas darbs Nr.1 atskaite - Teilora rinda
+# Laboratorijas darba Nr.1 atskaite - series
 
 ## Teorija
 
