@@ -3,7 +3,7 @@
 
 ## Teorija
 
-Izmantojot Dihotomijas metodi, iespējams atrast x vertibu zinot y vertību pēc principa f(x) = c ------> f(x)-c = 0;
+Dihotomijas metode = intervala dalisana uz pusem. Izmantojot Dihotomijas metodi, iespējams atrast x vertibu zinot y vertību pēc principa f(x) = c ------> f(x)-c = 0;
 
 ### Kods
 ```
