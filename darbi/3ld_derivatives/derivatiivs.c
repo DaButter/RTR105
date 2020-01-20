@@ -58,17 +58,7 @@ void saving(int k,float dx,float a, float b){
 		y3[i] = (2*sqrt(x[i])*sin(sqrt(2*x[i]))-sin(sqrt(2*x[i])))/(4*x[i]*sqrt(x[i])); //2k atvasinajums
 	}
 
-/*	for(i=0;i<(k-1);i++)
-	{
-		y4[i]= f(y1[i],y1[i+1],dx);
-	}
-
-	for(i=0;i<(k-2);i++)
-	{
-		y5[i] = f(y2[i],y2[i+1],dx);
-	}
-
-	*/for(i=0;i<k;i++)
+	for(i=0;i<k;i++)
 	{
 		fprintf(fp,"%10.2f\t%13.2f\t%13.2f\t%13.2f\n",x[i],y1[i],y2[i],y3[i]);
 	}
