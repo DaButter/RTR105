@@ -7,86 +7,43 @@ Lai tas paradītu, es uzrakstīju programmu, kura kārto un atrod modu, mediānu
 
 ### Kods
 ```
-#include<stdio.h>
-#include<string.h>
 
-void main()
-{
- char str[50], str2[50];
- char i = 0, moda = 0, x = 0,min=0,max=0,j=0,buf=0;
- long int av =0, med = 0, len = 0;
- printf("Lūdzu, ievadiet teikumu : ");
- scanf("%[^\n]s", str);
- strcpy(str2,str);
- len = strlen(str);
- for (i= 0;i < len - 1;i++){
-  for (j= i+1; j < len;j++){
-   if (str2[i] > str2[j]){
-    buf = str2[i];
-    str2[i] = str2[j];
-    str2[j] = buf;
-   }
-  }
- }
-  if (len%2 == 1)
-   med = str2[len/2+1];
-  if (len%2 == 0){
-   med = str2[len/2]+str2[len/2+1];
-   med /=2;
-  }
- av/=len;
- max=str2[j-1];
- min=str2[0];
 
- printf("Simbolu rindas simboli alfabēta kārtībā - %s\n",str2);
- for (i= 0;str[i] != '\0' ;i++){
-  x=str[i];
-   av+=x;
- printf("%d ",str2[i]);
- }
- j=0;
-
- printf("Simbolu rindas garums - %ld\n",len);
- printf("Vidēja vērtība - %ld\n",av);
- printf("Min = %d\n",min);
- printf("Max = %d\n",max);
- printf("Med = %ld\n",med);
-
- for (i=0;len > i ;i++){
- if (str2[i] == str2[i+1])
-  j++;
- else if (str2[i] != str2[i+1])
-  if(j > moda){ moda = j;
-   j=0;
-  }
- }
- j=0;
-
- for (i=0;len > i ;i++){
- if (str2[i] == str2[i+1])
-  j++;
- else if (str2[i] != str2[i+1]){
- if (moda==j){
-   printf("Ievadītas rindas moda ir %d\n", str2[i]);
-   printf("----------------------------------\n");
- }
- j=0;}
-}
-}
 
 ```  
 
 ### Rezultāts
 ```
-Lūdzu, ievadiet teikumu : area
-Simbolu rindas simboli alfabēta kārtībā - aaer
-97 97 101 114 Simbolu rindas garums - 4
-Vidēja vērtība - 409
-Min = 97
-Max = 114
-Med = 107
-Ievadītas rindas moda ir 97
-----------------------------------
+
+Ludzu ievadiet burtu rindu (max 300 burtus) : asdfaauuu
+
+Ievadito simbolu skaits: 9
+
+Mazaka ievadita vertiba pec ASCII: a = 97 
+
+Lielaka ievadita vertiba pec ASCII: u = 117 
+
+Videja vertiba pec ASCII: j = 106 
+
+Mediana pec ASCII: f = 102 
+
+Moda(s) pec ASCII: 
+a = 97 
+u = 117 
+
+Print alfabetiska seciba: a a a d f s u u u 
+
+Ievaditais simbols 	 ASCII vertiba
+Char 		              Dec 
+a 			                97 
+a 			                97 
+a 			                97 
+d 			                100 
+f 			                102 
+s 			                115 
+u 			                117 
+u 			                117 
+u 			                117 
 
 ```
 
@@ -95,5 +52,5 @@ Izpildot kodu, man sanāca, ka programma pareizi izpilda visus aprēķinus un ar
 
 ### Attēls
 
-![Histogramma](https://github.com/daniil172101/RTR105_2019/blob/master/darbi/5ld_statistics/statistika.png)
+![Histogramma]()
 
