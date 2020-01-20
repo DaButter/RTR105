@@ -1,0 +1,8 @@
+lūdzu, ievadi sākuma robežu: 1
+lūdzu, ievadi beigas robežu: 3
+lūdzu, ievadi precizitāti: 4
+
+integral, using rectangle rule: 1.68229
+integral, using Simpson's rule: 1.68229
+integrālis, aprēķināts ar trapeču metodi: 1.68229
+
