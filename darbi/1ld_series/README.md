@@ -1,80 +1,88 @@
-							1ld_series atskaite
-							
-Code
+<!-- https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
+# Laboratorijas darbs Nr.1. - Teilora rinda - atskaite
 
-	#include <stdio.h>
-  #include <math.h> 
-  
-  void main(){
-  
-  int k;
-	long double Sum,a,x,y;
+## Teorija
+Izmantojot Teilora rundu, var vieglāk atrast funkcijas vērtību, aizstājot funkciju ar pakāpes serijas summu.
 
-	//series vizualizacijas bloks;
+### Kods
+```
+#include<stdio.h>
+#include<math.h>
 
-	printf("\n\n\t   500 \n"); // ar \t taulaciju nocentre
+void main(){
+ long double x,y,a,s;
+ int k=0;
 
-	printf("\t -------- \n");
+ printf("Funkcijas (1+x)*exp(x) aprēķināšana: \n");
+ printf("Lietotājs, lūdzu, ievadi x vērtību: ");
+ scanf("%Lf",&x);
+ y = (1+x)*exp(x);
+ printf("(1 + %.2Lf)*exp(%.2Lf) = %.2Lf\n",x,x,y);
 
-	printf("\t \\                (k+1)   k   (2k-1)\n"); //pakapes
+ a = (1+x)*pow(x,0)/(1);
+ s += a;
 
-	printf("\t  \\          (-1)^     *x^ *2^\n"); //dalas augsa
+ while (k<1000)
+ {
+  if (k == 0)
+   printf("a0 = %Le\tS0 =%.2Lf\n",a,s);
+  k++;
+  a = a*x/(k);
+  s += a;
+  if (k == 999)
+   printf("a999 = %Le\tS999 =%.2Lf\n",a,s);
+ }
+ printf("a1000 = %Le\tS1000 =%.2Lf\n",a,s);
 
-	printf(" f(x) =\t   |      ----------------------------   = (sin(sqrt(x)))^2\n"); //dalas vidus
+ printf("\n");
+ printf("\t\t1000\n");
+ printf("\t\t----\n");
+ printf("\t\t\\\t\t        k\n");
+ printf("\t\t \\\t\t(1+x)*x\n");
+ printf("f(x)=\t\t|\t    ----------------\n");
+ printf("\t\t /\t\t   k!\n");
+ printf("\t\t/\n");
+ printf("\t\t----\n");
+ printf("\t\tk=0\n");
 
-	printf("  \t  /\t           (2*k)!"); //dalas apaksa
-
-	printf("\n\t /\n"); //
-
-	printf("\t -------- \n");
-
-	printf("\t   k=1\n\n");
-
-	// x ievadisana
-	printf("Ievadiet x vertibu, kurai velaties iegut (sin(sqrt(x)))^2: ");
-	scanf("%Lg",&x);
-
-
-	y = sin(sqrt(x))*sin(sqrt(x));
-
-	printf("\nIzmantojot math: f(%.5Lg)=(sin(sqrt(%.5Lg)))^2=%.5Lg\n",x,x,y); //izvada y izmantojot math
-	printf("\n");
-
-	//SERIES SUM bloks
-
-	a=x;
-	Sum = a;
-	k=1; //k sakas no 1
-
-	printf("Izmantojot series summu: \n\n"
-	while(k<501)
-	{
-
-		k++;
-		a = a* (-4)*x /((2*k)*(2*k-1)); //a*R
-		Sum = Sum + a; //SUM
-
-	 if (k==499||k==500)
-		{
-	 		printf("%d.   |    X=%.5Lg\t|\ta=%.5Lg\t|\tS=%.5Lg\t\n", k, x, a, Sum);
-		}
-	}
-
-	printf("\nRekurences reizinatajs:\n\n");
-
-	//REKURENCES reizinataja vizualizacijas bloks
-
-	printf("           (-4)*x\n");
-	printf(" R = -------------------- \n");
-	printf("        (2*k)*(2*k-1)\n");
-
-	printf("\n");}
+ printf("\n");
+ printf("\t\t\tx\n");
+ printf("R=\t\t   -----------\n");
+ printf("\t\t\tk\n");
+}
 
 
-Short description
+```
+Comments about code  
 
-Result
+### Rezultāts
+```
+Funkcijas (1+x)*exp(x) aprēķināšana: 
+Lietotājs, lūdzu, ievadi x vērtību: 2.05
+(1 + 2.05)*exp(2.05) = 23.69
+a0 = 3.050000e+00	S0 =3.05
+a999 = 0.000000e+00	S999 =23.69
+a1000 = 0.000000e+00	S1000 =23.69
 
-Analysis
+		1000
+		----
+		\		        k
+		 \		(1+x)*x
+f(x)=		|	    ----------------
+		 /		   k!
+		/
+		----
+		k=0
 
-Function graph
+			x
+R=		   -----------
+			k
+
+```
+
+### Analīze
+Izpildot kodu, man sanāca, ka rezultāti, kuri ir iegūti ar Teilora rindu palīdzību, sakrīt ar apŗēķinātu funkcijas vērtību.  
+
+### Attēli
+
+![Funkcijas grafiks](https://github.com/daniil172101/RTR105_2019/blob/master/darbi/1ld_series/funkcija.png)
