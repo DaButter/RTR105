@@ -13,14 +13,9 @@ syms x
 
 %% Funkcija solve
 
+%no funckijas atrast x
 solve(c+b*x+a*sqrt(x)==0,x)
 
-%ans =
- 
- %(a - (a^2 - 4*b*c)^(1/2))^2/(4*b^2)
- %(a + (a^2 - 4*b*c)^(1/2))^2/(4*b^2)
-
- 
 %% Iegutaas pretty atbildes
 
 ans1 = (a - (a^2 - 4*b*c)^(1/2))^2/(4*b^2);
@@ -28,39 +23,37 @@ ans2 = (a + (a^2 - 4*b*c)^(1/2))^2/(4*b^2);
  
 pretty(ans1)
 pretty(ans2)
-
-%           2          2
-%(a - sqrt(a  - 4 b c))
-%-----------------------
-%             2
-%          4 b
-          
-%                     2          
-%(a + sqrt(a  - 4 b c))
-%-----------------------
-%             2
-%          4 b
           
 %% 2.uzdevums
 
-%% 18. f(x)=x^3*cos(x) F(x)-? x pied. [-20;20]
+% 18. f(x)=x^3*cos(x) F(x)-? ,ja x pieder [-20;20]
 
 % F(x) jamekle integralis
 % f(x) un F(x) grafiku uzplotot kopaa
 
-as = -10:0.01:10;
-y1 = as.^3.*cos(as);
-plot(as,y1);
-hold on
+%originalais grafiks
+y1 = x.^3.*cos(x);
+%integreta atbilde, simplificeta
+y1i = simplify(int(x^3*cos(x),x));
 
-%syms x 
-% plotosanai ir 4 soli
-int(x^3*cos(x),x)
-answer = cos(x)*(3*x.^2 - 6)-sin(x)*(-x.^3 + 6*x);
+% Izteiksmes vektorizacija
+y1v = vectorize(y1);
+y1iv = vectorize (y1i);
 
-x = -10:0.01:10;
-plot(x,answer);
+%x definesana
+x = -20:0.01:20;
 
-hold off
+%interpretatora funkcija
+y1vm = eval(y1v);
+y1ivm = eval(y1iv);
 
-% skat. formulu graf attelosasa ievada simb mat
+%grafiks
+plot(x,y1vm,x,y1ivm)
+grid
+
+%% Secinajumi 
+
+% Simboliskos mainigos matlaba izmanto izmanto, lai definetu tos ka
+% mainigos lielumus kadaa funkcijaa. Si laboratorijas darba del, esmu
+% apguvis grafika plotosanu, izmantojot syms mainigos, ka ari apguvis
+% integresanas, solve, eval, simplify, pretty funckijas.
